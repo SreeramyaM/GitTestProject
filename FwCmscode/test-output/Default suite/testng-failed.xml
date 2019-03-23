@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest">
+        <methods>
+          <include name="verifyBestInetOperatorAsOnlyPriviligedUser" invocation-numbers="0"/>
+          <include name="beforeTestMethod"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- org.fwcms.cdc.privilegeduser.MultipleRolesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

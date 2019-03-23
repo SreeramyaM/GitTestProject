@@ -1,0 +1,70 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tc" parallel="false">
+	<test name="change Password As Bestinet Operator">
+		<classes>
+			<class name="org.fwcms.tc.operator.ChangePasswordTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="forgot Password As Bestinet Operator">
+		<classes>
+			<class name="org.fwcms.tc.operator.ForgotPasswordTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="change Password As MC Representative">
+		<classes>
+			<class name="org.fwcms.tc.representative.ChangePasswordTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="verify And Validate">
+		<classes>
+			<class name="org.fwcms.tc.representative.VerificationsAndValidationsTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="crud Operations">
+		<classes>
+			<class name="org.fwcms.tc.representative.CrudOperationsOnOperatorTest"></class>
+		</classes>
+	</test> 
+	
+    <test name="search MedicalCenter">
+		<classes>
+			<class name="org.fwcms.tc.operator.SearchForMedicalCenterTest"></class>
+			<class name="org.fwcms.tc.privilegeduser.SearchForMedicalCenterTest"></class>
+			<class name="org.fwcms.tc.operator.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest"></class>
+			<class name="org.fwcms.tc.privilegeduser.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest"></class>
+			<class name="org.fwcms.tc.operator.SearchMCByCountryAndByStatusTest"></class>
+		</classes>
+	</test>
+	
+	<test name="verify RegisteredMC">
+		<classes>
+		<class name="org.fwcms.tc.operator.VerifyingFunctionalityOfVerifyButtonWithoutVerifyingTest"></class>
+		<class name="org.fwcms.tc.operator.VerifyingRegisteredMCForPreviouslySavedApplicationTest"></class>
+		<class name="org.fwcms.tc.operator.VerifyRejectMCFunctionalityTest"></class>
+		<class name="org.fwcms.tc.operator.VerifyingRegisteredMCUnderPendingVerificationTest"></class>
+		<class name="org.fwcms.tc.privilegeduser.VerifyingRegisteredMCUnderPendingVerificationTest"></class>
+		
+		</classes>
+	</test>
+	
+	<test name="makePaymnet For MC">
+		<classes>
+			<class name="org.fwcms.tc.operator.MakePaymentByDraftForMCUnderPendingPaymentTest"></class>
+			<class name="org.fwcms.tc.operator.MakePaymentByOnlineForMCUnderPaymentPendingTest"></class>
+		</classes>
+	</test>
+	
+	<test name="approveMC">
+		<classes>
+			<class name="org.fwcms.tc.privilegeduser.RejectMCFuntionalityTest"></class>
+			<class name="org.fwcms.tc.privilegeduser.ApproveMCUnderPendingApprovalTest"></class>
+			<class name="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail"></class>
+			<class name="org.fwcms.tc.privilegeduser.VerifyEditFunctionalityOfCreditLimitTest"></class>	
+		</classes>
+	</test> 
+
+</suite>

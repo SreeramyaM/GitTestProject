@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FailedTCs" parallel="false">
+      <!-- <test name="Test1">
+		<classes>
+			<class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest"></class> 	
+		</classes>
+	</test> -->
+	
+	 <!--  <"THis is another way of declaring the failed test cases. 
+	 The class  contains  4 test cases and in that only 1 test case was getting failed. 
+	 So include only 1 test case for re-run we will declare it in the below way. 
+	 You can delete this once the execution get complete"> -->
+	 <test name="Test2">  
+		<classes>
+			<class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest">		
+			 <methods>
+       			 <include name="assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser"/> 
+       			  <include name="assignAndRevokeBestInetPrivilegedUserRole"/>        
+     	 </methods>
+			</class>		
+		</classes>
+	</test> 
+</suite>
+	
+

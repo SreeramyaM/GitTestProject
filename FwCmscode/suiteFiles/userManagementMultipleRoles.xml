@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="userMultipleRoles" parallel="false" >
+    
+	 <test name="super User">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.MultipleRolesTest"></class>
+		</classes>
+	</test>
+	
+	<test name="privileged User">
+		<classes>
+			<class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest"></class>
+		</classes>
+	</test>
+	
+	<test name="bestinet Operator">
+		<classes>
+			<class name="org.fwcms.cdc.operator.MultipleRolesTest"></class>
+		</classes>
+	</test> 
+	
+	<test name="mc Operator">
+		<classes>
+			<class name="org.fwcms.tc.mcOperator.MultipleRolesTest"></class>
+		</classes>
+	</test>
+	
+</suite>

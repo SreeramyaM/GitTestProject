@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="privilegedOperatorUserCreation" parallel="false" >
+
+   <test name="Bestinet Privileged And Operator User Creation">
+		<classes>
+			<class name="newdb.step1.CreatePriviligeUserAsSuperUser"></class>
+			<class name="newdb.step1.RetrieveBestinetPrivilegedUserUserNamePasswordFromGmail"></class>
+			<class name="org.fwcms.cdc.privilegeduser.ChangePasswordFirstTimeLoginTest"></class>
+			 <class name="newdb.step2.CreateBestInetOperatorUserAsPrivilegedUser"></class>
+			<class name="newdb.step2.RetrieveBestinetOperatorUserUserNamePasswordFromGmail"></class>
+			<class name="org.fwcms.tc.operator.ChangePasswordFirstTimeLoginTest"></class> 
+		</classes>
+	</test>
+	
+</suite>

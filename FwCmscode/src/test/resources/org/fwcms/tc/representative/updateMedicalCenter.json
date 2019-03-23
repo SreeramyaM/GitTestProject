@@ -1,0 +1,44 @@
+[
+	{
+	"medicalcentername":"Test Automation MC",
+	"medicalregno":"67549012",
+	"medicalcenteraddress":"updateaddress",
+	"supportingDocs" : "\\src\\test\\resources\\data\\ProofOfIdentity.pdf",
+	"DoctorStampandSign" : "\\src\\test\\resources\\data\\doctor_sign.jpg",
+	
+	"fullname":"Update doctor",
+	"professionalID":"111111",
+	"qualification":"updatequalification",
+	"address":"Update address",
+	
+	"Owner1FullName":"ownerone updated",
+	"Owner1Designation":"owneronedesignation",
+	"Owner1Email":"fwcmsautomation4@gmail.com",
+	"Owner1mobilno":"7878787878",
+	
+	"ReplaceOwner1Name":"ownerone",
+	"ReplaceOwner1Email":"fwcmsautomation4@gmail.com",
+	"ReplaceOwner1mobilno":"1212121212",
+	
+	"Owner2FullName":"ownertwo updated",
+	"Owner2Designation":"ownertwodesignation",
+	"Owner2Email":"fwcmsautomation5@gmail.com",
+	"Owner2mobilno":"1212121212",
+	
+	"ReplaceOwner2Name":"ownertwo",
+	"ReplaceOwner2Email":"fwcmsautomation5@gmail.com",
+	"ReplaceOwner2mobilno":"2222222222",
+	
+	"reponefullname":"repOne",
+	"reponeemail":"fwcmsautomation6@gmail.com",
+	"reponemobileno":"1212121212",
+	
+	"reptwofullname":"repTwo",
+	"reptwoemail":"fwcmsautomation7@gmail.com",
+	"reptwomobileno":"1212121212",
+	
+	"admin_email" : "fwcmsautomation8@gmail.com"
+	
+	"SuccessfullyRejectedMessage":"Application Rejected!\n\nMail is sent to medical center users with Application Rejected status."
+	}
+]

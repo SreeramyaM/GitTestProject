@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="259.49" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WORKSPACE"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\WORKSPACE"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\WORKSPACE\FwCmscode\pom.xml clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="rejectUpdatedMCDetailsandVerify" classname="org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest" time="70.625">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (fde9da70-7fc9-4253-b1a9-efd035819247)] -&gt; css selector: div[class^=&apos;statusBar&apos;]]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: fde9da70-7fc9-4253-b1a9-efd035819247&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (fde9da70-7fc9-4253-b1a9-efd035819247)] -> css selector: div[class^='statusBar']]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: fde9da70-7fc9-4253-b1a9-efd035819247
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest.rejectUpdatedMCDetailsandVerify(RejectUpdatedMCDetailsandVerifyTest.java:73)
+</failure>
+    <system-out><![CDATA[18-01-2017 14:01:54,378 [main] INFO [olo.util.PropertyReader]  - Loading /config/config.properties
+18-01-2017 14:01:54,379 [main] INFO [olo.util.PropertyReader]  - Loading /config/mail.properties
+18-01-2017 14:01:58,613 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+18-01-2017 14:01:58,614 [main] INFO [olo.listeners.MailSuiteListener]  - Mail sent on suite start 'FailedTCs'
+18-01-2017 14:02:03,848 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+18-01-2017 14:02:03,860 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+18-01-2017 14:02:03,867 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+18-01-2017 14:02:03,886 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+18-01-2017 14:02:03,886 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/tc
+18-01-2017 14:02:05,914 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2ftc%2f
+18-01-2017 14:02:05,934 [main] INFO [fwcms.util.BestinetOperatorUserCredentialsProp]  - Loading bestinetoperatorusercredentials.properties
+18-01-2017 14:02:05,935 [main] INFO [pages.tc.LoginPage]  - typing username 'testau263' 
+18-01-2017 14:02:06,099 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:02:07,160 [main] INFO [pages.tc.LoginPage]  - clicking login button
+18-01-2017 14:02:07,537 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : rejectUpdatedMCDetailsandVerify
+18-01-2017 14:02:07,538 [main] INFO [fwcms.util.MedicalCenterProp]  - Loading medicalCenter.properties
+18-01-2017 14:02:07,541 [main] INFO [pages.tc.HomePage]  - clicking medical center search option
+18-01-2017 14:02:09,197 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Searching MC by Application ID
+18-01-2017 14:02:09,581 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:02:10,113 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Verifying MC status to beActive
+18-01-2017 14:02:10,141 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Active' equals to expectedText : 'Active' in element [[FirefoxDriver: firefox on WINDOWS (fde9da70-7fc9-4253-b1a9-efd035819247)] -> css selector: span[class$='mc_status']]
+18-01-2017 14:02:10,144 [main] INFO [fwcms.pages.CommonElements]  - Logout from the application
+18-01-2017 14:02:11,393 [main] INFO [pages.tc.LoginPage]  - typing username 'chinar36' 
+18-01-2017 14:02:11,625 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:02:12,691 [main] INFO [pages.tc.LoginPage]  - clicking login button
+18-01-2017 14:02:13,010 [main] INFO [pages.tc.RepresentativeHomePage]  - waiting for update MC link to be clickable
+18-01-2017 14:02:13,575 [main] INFO [pages.tc.RepresentativeHomePage]  - clicking update MC link
+18-01-2017 14:02:14,271 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:02:16,837 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Click MC update link
+18-01-2017 14:02:16,910 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Verify update MC form
+18-01-2017 14:02:17,457 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit MC name
+18-01-2017 14:02:17,539 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit registration no
+18-01-2017 14:02:17,596 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit Medical center address
+18-01-2017 14:02:17,757 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Assert error message
+18-01-2017 14:02:17,778 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (fde9da70-7fc9-4253-b1a9-efd035819247)] -> class name: formErrorContent]
+18-01-2017 14:02:17,868 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 14:03:18,122 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : rejectUpdatedMCDetailsandVerify
+18-01-2017 14:03:18,126 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : rejectUpdatedMCDetailsandVerify : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="updateMCDetailsWithoutAndWithSupportingDocs" classname="org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest" time="70.382">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (f831b0ee-7964-464d-be52-4a7ca5f7c337)] -&gt; css selector: div[class^=&apos;statusBar&apos;]]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: f831b0ee-7964-464d-be52-4a7ca5f7c337&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (f831b0ee-7964-464d-be52-4a7ca5f7c337)] -> css selector: div[class^='statusBar']]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: f831b0ee-7964-464d-be52-4a7ca5f7c337
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest.updateMCDetailsWithoutAndWithSupportingDocs(UpdateMCDetailsWithoutAndWithSupportingDocsTest.java:76)
+</failure>
+    <system-out><![CDATA[18-01-2017 14:03:18,405 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+18-01-2017 14:03:18,810 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+18-01-2017 14:03:23,005 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+18-01-2017 14:03:23,152 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+18-01-2017 14:03:23,161 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+18-01-2017 14:03:23,179 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+18-01-2017 14:03:23,179 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/tc
+18-01-2017 14:03:24,299 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2ftc%2f
+18-01-2017 14:03:24,300 [main] INFO [pages.tc.LoginPage]  - typing username 'testau263' 
+18-01-2017 14:03:24,451 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:03:25,520 [main] INFO [pages.tc.LoginPage]  - clicking login button
+18-01-2017 14:03:25,867 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : updateMCDetailsWithoutAndWithSupportingDocs
+18-01-2017 14:03:25,868 [main] INFO [pages.tc.HomePage]  - clicking medical center search option
+18-01-2017 14:03:27,480 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Searching MC by Application ID
+18-01-2017 14:03:27,886 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:03:28,426 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Verifying MC status to beActive
+18-01-2017 14:03:28,447 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Active' equals to expectedText : 'Active' in element [[FirefoxDriver: firefox on WINDOWS (f831b0ee-7964-464d-be52-4a7ca5f7c337)] -> css selector: span[class$='mc_status']]
+18-01-2017 14:03:28,447 [main] INFO [fwcms.pages.CommonElements]  - Logout from the application
+18-01-2017 14:03:29,535 [main] INFO [pages.tc.LoginPage]  - typing username 'chinar36' 
+18-01-2017 14:03:29,681 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:03:30,754 [main] INFO [pages.tc.LoginPage]  - clicking login button
+18-01-2017 14:03:31,250 [main] INFO [pages.tc.RepresentativeHomePage]  - waiting for update MC link to be clickable
+18-01-2017 14:03:31,835 [main] INFO [pages.tc.RepresentativeHomePage]  - clicking update MC link
+18-01-2017 14:03:32,495 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:03:35,088 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Click MC update link
+18-01-2017 14:03:35,158 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Verify update MC form
+18-01-2017 14:03:35,702 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit MC name
+18-01-2017 14:03:35,791 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit registration no
+18-01-2017 14:03:35,856 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit Medical center address
+18-01-2017 14:03:36,021 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Assert error message
+18-01-2017 14:03:36,040 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (f831b0ee-7964-464d-be52-4a7ca5f7c337)] -> class name: formErrorContent]
+18-01-2017 14:03:36,140 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 14:04:36,245 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : updateMCDetailsWithoutAndWithSupportingDocs
+18-01-2017 14:04:36,246 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : updateMCDetailsWithoutAndWithSupportingDocs : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="verifyBestInetOperatorAsOnlyPriviligedUser" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="83.533">
+    <failure message="Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@10db145&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 9a30d21e-c9f3-4ba5-9580-7fa2aef16ed1&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@10db145
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 9a30d21e-c9f3-4ba5-9580-7fa2aef16ed1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.MultipleRolesTest.verifyBestInetOperatorAsOnlyPriviligedUser(MultipleRolesTest.java:109)
+</failure>
+    <system-out><![CDATA[18-01-2017 14:04:36,462 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+18-01-2017 14:04:36,763 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+18-01-2017 14:04:41,460 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+18-01-2017 14:04:41,474 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+18-01-2017 14:04:41,479 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+18-01-2017 14:04:41,496 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+18-01-2017 14:04:41,496 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+18-01-2017 14:04:42,307 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+18-01-2017 14:04:42,308 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : verifyBestInetOperatorAsOnlyPriviligedUser
+18-01-2017 14:04:42,312 [main] INFO [fwcms.util.BestinetPrivilegedUserCredentialsProp]  - Loading bestinetprivilegedusercredentials.properties
+18-01-2017 14:04:42,313 [main] INFO [pages.cdc.LoginPage]  - typing username 'testpr52'
+18-01-2017 14:04:42,395 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:04:42,449 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+18-01-2017 14:04:42,794 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+18-01-2017 14:04:43,666 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+18-01-2017 14:04:44,348 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:04:44,911 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 14:04:44,957 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 14:04:46,034 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 14:04:46,219 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 14:04:46,314 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 14:04:48,384 [main] INFO [pages.cdc.UserDetailsPage]  - comparing Test Automation Puneet with Test Automation Puneet in the existing list
+18-01-2017 14:04:49,061 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 14:04:49,196 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role checkbox is present
+18-01-2017 14:04:49,244 [main] INFO [olo.bot.BrowserBot]  - Comparing elementValue : 'BESTINET_PRIVILEGED_USER' equals to expectedValue : 'BESTINET_PRIVILEGED_USER' in element [[FirefoxDriver: firefox on WINDOWS (9a30d21e-c9f3-4ba5-9580-7fa2aef16ed1)] -> id: userRoleType]
+18-01-2017 14:04:49,245 [main] INFO [prop.cdc.BestInetOperatorUsersDetailsPageProp]  - Loading BestInetOperatorUsersDetailsPage.properties
+18-01-2017 14:04:49,246 [main] INFO [pages.cdc.UserDetailsPage]  - assigning additional role
+18-01-2017 14:04:49,246 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+18-01-2017 14:04:49,317 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+18-01-2017 14:04:49,393 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+18-01-2017 14:04:49,458 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 14:04:51,566 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in status bar
+18-01-2017 14:04:51,589 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' equals to expectedText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in element [[FirefoxDriver: firefox on WINDOWS (9a30d21e-c9f3-4ba5-9580-7fa2aef16ed1)] -> css selector: div[class^='statusBar']]
+18-01-2017 14:04:51,590 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 14:04:52,110 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 14:04:53,110 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 14:04:53,126 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 14:04:53,163 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 14:04:54,251 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 14:04:54,320 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 14:04:54,415 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 14:04:56,473 [main] INFO [pages.cdc.UserDetailsPage]  - comparing Test Automation Puneet with Test Automation Puneet in the existing list
+18-01-2017 14:04:57,106 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 14:04:57,246 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is assigned
+18-01-2017 14:04:57,263 [main] INFO [pages.cdc.UserDetailsPage]  - clicking cancel button
+18-01-2017 14:04:57,327 [main] INFO [fwcms.pages.CommonElements]  - clicking signout link
+18-01-2017 14:04:57,327 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 14:04:58,897 [main] INFO [pages.cdc.LogoutPage]  - waiting for back to login link to be visible
+18-01-2017 14:04:58,921 [main] INFO [pages.cdc.LogoutPage]  - clicking back to login link
+18-01-2017 14:04:59,427 [main] INFO [pages.cdc.LogoutPage]  - navigating back to login page
+18-01-2017 14:04:59,684 [main] INFO [pages.cdc.LoginPage]  - typing username 'testau1'
+18-01-2017 14:04:59,725 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:04:59,768 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+18-01-2017 14:05:00,076 [main] INFO [pages.cdc.HomePage]  - checking sign out link is visible
+18-01-2017 14:05:00,702 [main] INFO [pages.cdc.HomePage]  - clicking signout link
+18-01-2017 14:05:00,702 [main] INFO [pages.cdc.HomePage]  - sleeping for 1 sec
+18-01-2017 14:05:02,117 [main] INFO [pages.cdc.LogoutPage]  - waiting for back to login link to be visible
+18-01-2017 14:05:02,135 [main] INFO [pages.cdc.LogoutPage]  - clicking back to login link
+18-01-2017 14:05:02,778 [main] INFO [pages.tc.LoginPage]  - typing username 'testau1' 
+18-01-2017 14:05:02,878 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 14:05:03,944 [main] INFO [pages.tc.LoginPage]  - clicking login button
+18-01-2017 14:05:04,298 [main] INFO [pages.tc.HomePage]  - asserting sign out visible
+18-01-2017 14:05:05,172 [main] INFO [pages.tc.HomePage]  - clicking signout link
+18-01-2017 14:05:05,717 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+18-01-2017 14:06:05,838 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : verifyBestInetOperatorAsOnlyPriviligedUser
+18-01-2017 14:06:05,839 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : verifyBestInetOperatorAsOnlyPriviligedUser : FAIL
+]]></system-out>
+  </testcase>
+</testsuite>

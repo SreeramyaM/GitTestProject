@@ -1,0 +1,15 @@
+[
+	{
+	"TextDisplay1":"You are just one step away from getting access to foreign worker's centralized management system.",
+	"TextDisplay2":"Please enter you details in the form provided below to proceed.",
+	"Note":"Note: Data that you enter must match the information that you provided to Immigration .",
+	"Employer's Unique ID":"EMP-INT-TEST01",
+	"Employer Email Address":"fwcmsautomation10@gmail.com",
+	"Employer Hand Phone Number":"121233456678",
+	"gmailPassword" : "Smiles@123",
+	"newPassword" : "Test123!@",
+	"confirmPassword" : "Test123!@",
+	"Employer credentials created success message":"Your credentials have been generated successfully!\n\nPlease login using User Name and Password sent in email.",
+	"Change in password success message":"Password is successfully changed!\n\nThe new password is updated in the system. Please re-login using the new password."
+	}
+]

@@ -1,0 +1,42 @@
+[
+{
+	"mcRegistrationCountry" : "CHINA",
+	"medicalcentername" : "TEST AUTOMATION CHINA MC",
+	"registrationnumber" : "",
+	"medicalcenteraddressline1" : "Happiest Minds",
+	"email" : "fwcmsautomation3@gmail.com",
+	"fax" : "12121212",
+	"weekdayfrom" : "11:00 PM",
+	"weekdayto" : "11:30 PM",
+	"filePath" : "\\src\\test\\resources\\data\\logo.jpg",
+	"owner_name1" : "Owner one",
+	"owner_designation1" : "Owner",
+	"owner_email1" : "fwcmsautomation4@gmail.com",
+	"owner_contact1" : "1212121212",
+	"owner_name2" : "Owner two",
+	"owner_designation2" : "Director",
+	"owner_email2" : "fwcmsautomation5@gmail.com",
+	"owner_contact2" : "1212121212",
+	"rep_name1" : "ChinaRep One",
+	"rep_email1" : "fwcmsautomation6@gmail.com",
+	"rep_email1_password" : "Smiles@123"
+	"rep_contact1" : "9898989898",
+	"rep_name2" : "ChinaRep Two",
+	"rep_email2" : "fwcmsautomation7@gmail.com",
+	"rep_contact2" : "1212121212",
+	"doctor_fullname" : "doctor",
+	"doctor_professionalid" : "123456789",
+	"doctor_qualification" : "Masters",
+	"doctor_address" : "doctor address",
+	"doctor_signature" : "\\src\\test\\resources\\data\\doctor_sign.jpg",
+	"doctor_stamp" : "\\src\\test\\resources\\data\\doctor_stamp.jpg",
+	"reg_cer_document" : "\\src\\test\\resources\\data\\RegistrationCertificate.pdf",
+	"proof_of_identity_document" : "\\src\\test\\resources\\data\\ProofOfIdentity.pdf",
+	"medical_center_stamp" : "\\src\\test\\resources\\data\\logo.jpg",
+	"proof_of_identity_second_owner" : "\\src\\test\\resources\\data\\ProofOfIdentityDirector.pdf",
+	"letter_of_auth_second" : "\\src\\test\\resources\\data\\LetterOfAuthFirstRep.pdf",
+	"letter_of_auth_first" : "\\src\\test\\resources\\data\\LetterOfAuthFirstRep.pdf"
+	"admin_email" : "fwcmsautomation8@gmail.com"
+	
+}
+]

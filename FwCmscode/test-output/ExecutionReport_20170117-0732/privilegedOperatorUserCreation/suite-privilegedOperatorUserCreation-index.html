@@ -1,0 +1,55 @@
+<!DOCTYPE html><html><head><title>privilegedOperatorUserCreation Suite Results</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"><style type='text/css'>.ifskipped{background-color: #d6e1c9;}</style><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script><script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script><script type='text/javascript'>$( document ).ready(function() {    $(document).on('click', '.openDialog', function () {  var errorDetails = $(this).data('showthismessage');   $('.modal-body').html( errorDetails ); });  });</script><script type='text/javascript' src='http://www.google.com/jsapi'></script><script type='text/javascript'>google.load('visualization', '1', {packages: ['corechart']}); </script><script type='text/javascript'>function drawVisualization() { var data = new google.visualization.DataTable(); data.addColumn('string', 'Topping'); data.addColumn('number', 'Slices'); data.addRows([['Pass', 6],['Fail', 0],['Skip', 0]]); new google.visualization.PieChart(document.getElementById('visualization')).draw(data,{'width':300,'height':200,slices: [{color: '#109618'}, {color:'#dc3912'}, {color: '#ff9900'}]});} google.setOnLoadCallback(drawVisualization); </script> </head><body><div class='navbar navbar-fixed-top' role='navigation'>
+<ol class='breadcrumb'><li><a href='../suites-summary-index.html'>Suite Summary</a></li><li><a href='suite-privilegedOperatorUserCreation-index.html'>privilegedOperatorUserCreation</a></li><li class='active'>All&nbsp;</li><div class='btn-group'><button type='button' class='btn btn-default btn-sm dropdown-toggle' data-toggle='dropdown'><span class='glyphicon glyphicon-filter'></span> <span class='caret'></span></button><ul class='dropdown-menu' role='menu'><li><a href='suite-privilegedOperatorUserCreation-passed.html'>Pass</a></li></ul></div>
+</ol></div>
+<div class='container' style='margin-top:60px;'><div class='row'><div class='col-md-4'><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><tr><th>Suite</th><td>privilegedOperatorUserCreation</td></tr><tr><th>Start Time</th><td>Tue, 17-Jan-2017 15:32:22</td></tr><tr><th>End Time</th><td>Tue, 17-Jan-2017 15:34:53</td></tr><tr><th>Time Taken</th><td>2 mins 31.5 sec</td></tr></table></div></div></div><div class='row'><div class='col-md-12'><div id='visualization'></div></div>
+</div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><thead><tr><th>Test</th><th>Pass</th><th>Fail</th><th>Skip</th><th>Total</th></tr></thead><tr><td><a href=#Bestinet-Privileged-And-Operator-User-Creation>Bestinet Privileged And Operator User Creation</a></td><td class='success'>6</td><td class='danger'>0</td><td class='warning'>0</td><th>6</th></tr><tfoot><tr><th>Total</th><th class='success'>6 (100.0%)</th><th class='danger'>0</th><th class='warning'>0</th><th>6</th></tr></tfoot></table></div></div></div></div>
+<div class='col-md-8'><div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>Bestinet Privileged And Operator User Creation</td></tr><tr><th>Start Time</th><td>Tue, 17-Jan-2017 15:32:22</td></tr><tr><th>End Time</th><td>Tue, 17-Jan-2017 15:34:53</td></tr><tr><th>Time Taken</th><td>2 mins 31.5 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='Bestinet-Privileged-And-Operator-User-Creation' ><caption>Detailed report of <strong>Bestinet Privileged And Operator User Creation</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div  >createPriviligedUserAsSuperUser</div></td>
+<td>7.6 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>newdb.step1.CreatePriviligeUserAsSuperUser</dd><dt>Start Time</dt><dd>15:32:28</dd><dt>End Time</dt><dd>15:32:36</dd><dt>Parameter 1</dt><dd>{&quot;gmailPassword&quot;:&quot;Smiles@123&quot;,&quot;contactNumber&quot;:&quot;9080706050&quot;,&quot;emailId&quot;:&quot;fwcmsautomation1@gmail.com&quot;,&quot;address&quot;:&quot;Bangalore&quot;,&quot;fullName&quot;:&quot;TestPrivilegedUser&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>2</a></td>
+<td><div  >retrivePrivilegedUserUserNamePassword</div></td>
+<td>15.9 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>newdb.step1.RetrieveBestinetPrivilegedUserUserNamePasswordFromGmail</dd><dt>Start Time</dt><dd>15:32:42</dd><dt>End Time</dt><dd>15:32:58</dd><dt>Parameter 1</dt><dd>{&quot;gmailPassword&quot;:&quot;Smiles@123&quot;,&quot;contactNumber&quot;:&quot;9080706050&quot;,&quot;emailId&quot;:&quot;fwcmsautomation1@gmail.com&quot;,&quot;address&quot;:&quot;Bangalore&quot;,&quot;fullName&quot;:&quot;TestPrivilegedUser&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>3</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="PrivUserOper_ChngPwd_01, PrivUserOper_ChngPwd_03, PrivUserOper_ChngPwd_07, PrivUserOper_ChngPwd_08" >changePasswordAsNewPrivilegedUser</div></td>
+<td>8.4 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.privilegeduser.ChangePasswordFirstTimeLoginTest</dd><dt>Start Time</dt><dd>15:33:03</dd><dt>End Time</dt><dd>15:33:12</dd><dt>Parameter 1</dt><dd>{&quot;confirmPassword&quot;:&quot;Test123!@&quot;,&quot;newPassword&quot;:&quot;Test123!@&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>4</a></td>
+<td><div  >createBestinetOperatorUserAsPrivilegedUser</div></td>
+<td>6.9 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>newdb.step2.CreateBestInetOperatorUserAsPrivilegedUser</dd><dt>Start Time</dt><dd>15:33:18</dd><dt>End Time</dt><dd>15:33:25</dd><dt>Parameter 1</dt><dd>{&quot;gmailPassword&quot;:&quot;Smiles@123&quot;,&quot;contactNumber&quot;:&quot;9080706050&quot;,&quot;emailId&quot;:&quot;fwcmsautomation2@gmail.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;Test Automation Operator User&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>5</a></td>
+<td><div  >retriveOperatorUserUserNamePassword</div></td>
+<td>1 mins 6.8 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>newdb.step2.RetrieveBestinetOperatorUserUserNamePasswordFromGmail</dd><dt>Start Time</dt><dd>15:33:31</dd><dt>End Time</dt><dd>15:34:38</dd><dt>Parameter 1</dt><dd>{&quot;gmailPassword&quot;:&quot;Smiles@123&quot;,&quot;contactNumber&quot;:&quot;9080706050&quot;,&quot;emailId&quot;:&quot;fwcmsautomation2@gmail.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;Test Automation Operator User&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>6</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="PrivUserOper_ChngPwd_01, PrivUserOper_ChngPwd_03, PrivUserOper_ChngPwd_07, PrivUserOper_ChngPwd_08" >changePasswordAsOperatorUser</div></td>
+<td>9.3 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.tc.operator.ChangePasswordFirstTimeLoginTest</dd><dt>Start Time</dt><dd>15:34:43</dd><dt>End Time</dt><dd>15:34:53</dd><dt>Parameter 1</dt><dd>{&quot;confirmPassword&quot;:&quot;Test123!@&quot;,&quot;newPassword&quot;:&quot;Test123!@&quot;}</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+</div>
+<div class='modal fade bs-modal-lg' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'><div class='modal-dialog modal-lg'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button><h4 class='modal-title' id='myModalLabel'>Error Details</h4></div><div class='modal-body'></div></div></div></div>
+</div>
+</div>
+<script type='text/javascript'>$(document).ready(function() { $('.testNameToolTip').tooltip({html: true});  $('.testDetails').click(function(event){ event.preventDefault();$(this).children('.glyphicon').toggleClass('glyphicon-chevron-down');  $(this).closest('tr').next().toggle();});});</script></body></html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head><title>userMultipleRoles Suite Results</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"><style type='text/css'>.ifskipped{background-color: #d6e1c9;}</style><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script><script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script><script type='text/javascript'>$( document ).ready(function() {    $(document).on('click', '.openDialog', function () {  var errorDetails = $(this).data('showthismessage');   $('.modal-body').html( errorDetails ); });  });</script><script type='text/javascript' src='http://www.google.com/jsapi'></script><script type='text/javascript'>google.load('visualization', '1', {packages: ['corechart']}); </script><script type='text/javascript'>function drawVisualization() { var data = new google.visualization.DataTable(); data.addColumn('string', 'Topping'); data.addColumn('number', 'Slices'); data.addRows([['Pass', 7],['Fail', 0],['Skip', 0]]); new google.visualization.PieChart(document.getElementById('visualization')).draw(data,{'width':300,'height':200,slices: [{color: '#109618'}, {color:'#dc3912'}, {color: '#ff9900'}]});} google.setOnLoadCallback(drawVisualization); </script> </head><body><div class='navbar navbar-fixed-top' role='navigation'>
+<ol class='breadcrumb'><li>Suite Summary</li><li>userMultipleRoles</li></ol></div>
+<div class='container' style='margin-top:60px;'><div class='row'><div class='col-md-4'><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><tr><th>Suite</th><td>userMultipleRoles</td></tr><tr><th>Start Time</th><td>Mon, 10-Oct-2016 13:34:19</td></tr><tr><th>End Time</th><td>Mon, 10-Oct-2016 13:41:51</td></tr><tr><th>Time Taken</th><td>7 mins 31.7 sec</td></tr></table></div></div></div><div class='row'><div class='col-md-12'><div id='visualization'></div></div>
+</div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><thead><tr><th>Test</th><th>Pass</th><th>Fail</th><th>Skip</th><th>Total</th></tr></thead><tr><td><a href=#super-User>super User</a></td><td class='success'>1</td><td class='danger'>0</td><td class='warning'>0</td><th>1</th></tr><tr><td><a href=#privileged-User>privileged User</a></td><td class='success'>4</td><td class='danger'>0</td><td class='warning'>0</td><th>4</th></tr><tr><td><a href=#bestinet-Operator>bestinet Operator</a></td><td class='success'>1</td><td class='danger'>0</td><td class='warning'>0</td><th>1</th></tr><tr><td><a href=#mc-Operator>mc Operator</a></td><td class='success'>1</td><td class='danger'>0</td><td class='warning'>0</td><th>1</th></tr><tfoot><tr><th>Total</th><th class='success'>7 (100.0%)</th><th class='danger'>0</th><th class='warning'>0</th><th>7</th></tr></tfoot></table></div></div></div></div>
+<div class='col-md-8'><div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>super User</td></tr><tr><th>Start Time</th><td>Mon, 10-Oct-2016 13:34:19</td></tr><tr><th>End Time</th><td>Mon, 10-Oct-2016 13:35:04</td></tr><tr><th>Time Taken</th><td>44.6 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='super-User' ><caption>Detailed report of <strong>super User</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="1, 6" >assignAndRevokeBestInetOperatorRole</div></td>
+<td>34.2 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.superuser.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:34:29</dd><dt>End Time</dt><dd>13:35:03</dd><dt>Parameter 1</dt><dd>{&quot;editReason&quot;:&quot;edit reason&quot;,&quot;contactNumber&quot;:&quot;9890979695&quot;,&quot;emailId&quot;:&quot;test@test.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;TestAutomationBPU&quot;,&quot;accountDeleteTitle&quot;:&quot;Inactive&quot;,&quot;deleteReason&quot;:&quot;delete reason&quot;}</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+<div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>privileged User</td></tr><tr><th>Start Time</th><td>Mon, 10-Oct-2016 13:35:04</td></tr><tr><th>End Time</th><td>Mon, 10-Oct-2016 13:41:22</td></tr><tr><th>Time Taken</th><td>6 mins 18.7 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='privileged-User' ><caption>Detailed report of <strong>privileged User</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="2, 4" >assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser</div></td>
+<td>38.2 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.privilegeduser.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:35:13</dd><dt>End Time</dt><dd>13:35:51</dd><dt>Parameter 1</dt><dd>{&quot;editReason&quot;:&quot;edit reason&quot;,&quot;contactNumber&quot;:&quot;9099989098&quot;,&quot;emailId&quot;:&quot;test@test.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;TestAutomationBOP&quot;,&quot;accountDeleteTitle&quot;:&quot;Inactive&quot;,&quot;deleteReason&quot;:&quot;delete reason&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>2</a></td>
+<td><div  >assignAndRevokeBestInetPrivilegedUserRole</div></td>
+<td>31.2 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.privilegeduser.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:36:01</dd><dt>End Time</dt><dd>13:36:32</dd><dt>Parameter 1</dt><dd>{&quot;editReason&quot;:&quot;edit reason&quot;,&quot;contactNumber&quot;:&quot;9099989098&quot;,&quot;emailId&quot;:&quot;test@test.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;TestAutomationBOP&quot;,&quot;accountDeleteTitle&quot;:&quot;Inactive&quot;,&quot;deleteReason&quot;:&quot;delete reason&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>3</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="13" >verifyBestInetOperatorAsOnlyPriviligedUser</div></td>
+<td>2 mins 14.4 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.privilegeduser.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:36:43</dd><dt>End Time</dt><dd>13:38:57</dd><dt>Parameter 1</dt><dd>{&quot;editReason&quot;:&quot;edit reason&quot;,&quot;contactNumber&quot;:&quot;9099989098&quot;,&quot;emailId&quot;:&quot;test@test.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;TestAutomationBOP&quot;,&quot;accountDeleteTitle&quot;:&quot;Inactive&quot;,&quot;deleteReason&quot;:&quot;delete reason&quot;}</dd></dl></div></td></tr>
+<tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>4</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="14" >verifyBestInetPriviligedUserAsOnlyOperator</div></td>
+<td>2 mins 12.5 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.privilegeduser.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:39:09</dd><dt>End Time</dt><dd>13:41:21</dd><dt>Parameter 1</dt><dd>{&quot;editReason&quot;:&quot;edit reason&quot;,&quot;contactNumber&quot;:&quot;9099989098&quot;,&quot;emailId&quot;:&quot;test@test.com&quot;,&quot;address&quot;:&quot;Happiest Minds&quot;,&quot;fullName&quot;:&quot;TestAutomationBOP&quot;,&quot;accountDeleteTitle&quot;:&quot;Inactive&quot;,&quot;deleteReason&quot;:&quot;delete reason&quot;}</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+<div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>bestinet Operator</td></tr><tr><th>Start Time</th><td>Mon, 10-Oct-2016 13:41:22</td></tr><tr><th>End Time</th><td>Mon, 10-Oct-2016 13:41:37</td></tr><tr><th>Time Taken</th><td>14.6 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='bestinet-Operator' ><caption>Detailed report of <strong>bestinet Operator</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="7, 9" >loginAccess</div></td>
+<td>3.2 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.operator.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:41:33</dd><dt>End Time</dt><dd>13:41:36</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+<div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>mc Operator</td></tr><tr><th>Start Time</th><td>Mon, 10-Oct-2016 13:41:37</td></tr><tr><th>End Time</th><td>Mon, 10-Oct-2016 13:41:51</td></tr><tr><th>Time Taken</th><td>13.8 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='mc-Operator' ><caption>Detailed report of <strong>mc Operator</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="success">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div class="testNameToolTip" data-toggle="tooltip" data-placement="top" title="8" >loginAccess</div></td>
+<td>3.8 sec</td>
+<td>PASS</td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.tc.mcOperator.MultipleRolesTest</dd><dt>Start Time</dt><dd>13:41:46</dd><dt>End Time</dt><dd>13:41:50</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+</div>
+<div class='modal fade bs-modal-lg' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'><div class='modal-dialog modal-lg'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button><h4 class='modal-title' id='myModalLabel'>Error Details</h4></div><div class='modal-body'></div></div></div></div>
+</div>
+</div>
+<script type='text/javascript'>$(document).ready(function() { $('.testNameToolTip').tooltip({html: true});  $('.testDetails').click(function(event){ event.preventDefault();$(this).children('.glyphicon').toggleClass('glyphicon-chevron-down');  $(this).closest('tr').next().toggle();});});</script></body></html>

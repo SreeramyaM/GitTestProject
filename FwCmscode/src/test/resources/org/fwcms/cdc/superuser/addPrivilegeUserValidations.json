@@ -1,0 +1,13 @@
+[
+	{
+	"fullnameMinCharAndLettersOnlydata":"1",
+	"fullnameMinChardata":"a",
+	"fullnameLettersOnlyData":"asdfasdf1",
+	"invaliedEmailAndMinCharData":"ab@",
+	"invaliedEmailData":"asdf@",
+	"contactNumberMinandNumbersOnlyData":"asd1",
+	"contactNumberMinCharData":"1234",
+	"contactNumberNumberOnlyData":"asdfasdf",
+	"addressSpecialCharData":"Happy@!",
+	}
+]

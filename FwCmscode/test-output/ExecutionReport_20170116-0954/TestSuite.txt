@@ -1,0 +1,176 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 3,415.14 sec <<< FAILURE! - in TestSuite
+VerifyMCInActiveStatusCanBeUpdated(org.fwcms.tc.representative.VerifyMCInActiveStatusCanBeUpdatedTest)  Time elapsed: 7.12 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.fwcms.tc.representative.VerifyMCInActiveStatusCanBeUpdatedTest.VerifyMCInActiveStatusCanBeUpdated(VerifyMCInActiveStatusCanBeUpdatedTest.java:37)
+
+VerifyMaxcountAndMinCountofDoctors(org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest)  Time elapsed: 0.092 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (985.2000122070312, 601.2833251953125). Other element would receive the click: <div style="height: 657px; opacity: 0.9; position: fixed; top: 0px; left: 0px; background-color: rgb(32, 65, 82); width: 100%; z-index: 1000000;" id="overlay_status" title="Click to close"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 083cbe99-0195-4f87-9e7a-80bdf84f1dea
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest.VerifyMaxcountAndMinCountofDoctors(VerifyCountofEachMemberInUpdateMCTest.java:66)
+
+VerifyReplacementofOwner(org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest)  Time elapsed: 1.086 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (625.5, 385.316650390625). Other element would receive the click: <div style="height: 657px; opacity: 0.9; position: fixed; top: 0px; left: 0px; background-color: rgb(32, 65, 82); width: 100%; z-index: 1000000;" id="overlay_status" title="Click to close"></div>
+Command duration or timeout: 69 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: d2ac6a05-d976-4932-8fb3-0d0e029ad4e7
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest.VerifyReplacementofOwner(VerifyCountofEachMemberInUpdateMCTest.java:77)
+
+verifyDeletingASingleRepAndDeletingBothReps(org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest)  Time elapsed: 0.087 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (1006.2666625976562, 406.98333740234375). Other element would receive the click: <div style="height: 657px; opacity: 0.9; position: fixed; top: 0px; left: 0px; background-color: rgb(32, 65, 82); width: 100%; z-index: 1000000;" id="overlay_status" title="Click to close"></div>
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: e5d80b97-1e45-499e-b893-fcc59dd20745
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest.verifyDeletingASingleRepAndDeletingBothReps(VerifyCountofEachMemberInUpdateMCTest.java:88)
+
+rejectUpdatedMCDetailsandVerify(org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest)  Time elapsed: 8.959 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (674.5, 447.20001220703125). Other element would receive the click: <div style="height: 657px; opacity: 0.9; position: fixed; top: 0px; left: 0px; background-color: rgb(32, 65, 82); width: 100%; z-index: 1000000;" id="overlay_status" title="Click to close"></div>
+Command duration or timeout: 65 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 26ae2459-8b31-440f-8d7f-618bdbe87898
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest.rejectUpdatedMCDetailsandVerify(RejectUpdatedMCDetailsandVerifyTest.java:72)
+
+updateMCDetailsWithoutAndWithSupportingDocs(org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest)  Time elapsed: 9.005 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (674.5, 447.20001220703125). Other element would receive the click: <div style="height: 657px; opacity: 0.9; position: fixed; top: 0px; left: 0px; background-color: rgb(32, 65, 82); width: 100%; z-index: 1000000;" id="overlay_status" title="Click to close"></div>
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 47c48922-0a94-4338-b867-77947d77004b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest.updateMCDetailsWithoutAndWithSupportingDocs(UpdateMCDetailsWithoutAndWithSupportingDocsTest.java:75)
+
+addPrivilegeUserValidationsAsSuperUser(org.fwcms.cdc.superuser.ValidationsTest)  Time elapsed: 136.296 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class^='emailformError']>div[class='formErrorContent']'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: d38052c6-a6b9-4e05-9ba8-24c98b61bfbe
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.superuser.ValidationsTest.addPrivilegeUserValidationsAsSuperUser(ValidationsTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=css selector, value=div[class^='emailformError']>div[class='formErrorContent']}
+Session ID: d38052c6-a6b9-4e05-9ba8-24c98b61bfbe
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.superuser.ValidationsTest.addPrivilegeUserValidationsAsSuperUser(ValidationsTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+
+addUserValidationsAsPrivilegedUser(org.fwcms.cdc.privilegeduser.ValidationsTest)  Time elapsed: 136.26 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class^='emailformError']>div[class='formErrorContent']'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 83878eec-5307-47db-b7be-870112a0bd31
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.ValidationsTest.addUserValidationsAsPrivilegedUser(ValidationsTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=css selector, value=div[class^='emailformError']>div[class='formErrorContent']}
+Session ID: 83878eec-5307-47db-b7be-870112a0bd31
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.ValidationsTest.addUserValidationsAsPrivilegedUser(ValidationsTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+
+changePasswordAsPrivilegedUser(org.fwcms.cdc.privilegeduser.ChangePasswordTest)  Time elapsed: 60.573 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@4f9ba6f9
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 8a3ffb17-9d62-40ed-bdb3-d0b8fec0f9d1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.ChangePasswordTest.changePasswordAsPrivilegedUser(ChangePasswordTest.java:40)
+
+changePasswordAsOperatorUser(org.fwcms.tc.operator.ChangePasswordTest)  Time elapsed: 61.63 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@5c4f574b
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 24e8b9ee-e1cd-4de1-bb43-82448d08dbd4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.operator.ChangePasswordTest.changePasswordAsOperatorUser(ChangePasswordTest.java:40)
+
+resetPasswordFlowAsRepresentative(org.fwcms.tc.representative.ChangePasswordTest)  Time elapsed: 61.594 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@42f7a074
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 557a1ec2-b438-4d2d-a62a-74087aafcfe3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.ChangePasswordTest.resetPasswordFlowAsRepresentative(ChangePasswordTest.java:47)
+
+addEditDeleteOperatorAsRepresentative(org.fwcms.tc.representative.CrudOperationsOnOperatorTest)  Time elapsed: 61.69 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"link text","selector":"Sign Out"}
+Command duration or timeout: 60.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=link text, value=Sign Out}
+Session ID: 9c425fcd-559e-4992-aa42-756c71013fb4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.CrudOperationsOnOperatorTest.addEditDeleteOperatorAsRepresentative(CrudOperationsOnOperatorTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"link text","selector":"Sign Out"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+
+verifyBestInetOperatorAsOnlyPriviligedUser(org.fwcms.cdc.privilegeduser.MultipleRolesTest)  Time elapsed: 83.809 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@52d799b
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: c77bf156-93e7-45be-b83c-75d2c8d9252b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.MultipleRolesTest.verifyBestInetOperatorAsOnlyPriviligedUser(MultipleRolesTest.java:109)
+

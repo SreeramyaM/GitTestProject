@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="employerManagement" parallel="false" >
+    
+	<test name="employer registration">
+		<classes>
+			<class name="org.fwcms.cdc.employerManagement.VerifyEmployerRegistrationTest"></class>
+			<class name="org.fwcms.cdc.employerManagement.ChangePasswordTest"></class>
+			<class name="org.fwcms.cdc.employerManagement.LoginAsEmployerAndVerifyPICDetials"></class>  
+		</classes>
+	</test>
+</suite>

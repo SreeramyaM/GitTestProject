@@ -1,0 +1,44 @@
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cdc" parallel="false">
+
+	<test name="meta data configuration">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.MetaDataConfigurationTest"></class>
+		</classes>
+	</test>
+    <test name="verifications">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.VerifyElementsPresentTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.VerifyElementsPresentTest"></class>
+		</classes>
+	</test>
+	<test name="validations">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.ValidationsTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.ValidationsTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.ChangeAndForgotPasswordValidationsTest"></class>
+		</classes>
+	</test>
+	<test name="crud operations">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.CrudOperationsTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.CrudOperationsTest"></class>
+		</classes>
+	</test>
+	<test name="search functionality">
+		<classes>
+			<class name="org.fwcms.cdc.superuser.SearchFunctionalityTest"></class>
+			<class name="org.fwcms.cdc.privilegeduser.SearchFunctionalityTest"></class>
+		</classes>
+	</test>
+	<test name="change password">
+		<classes>
+			<class name="org.fwcms.cdc.privilegeduser.ChangePasswordTest"></class>
+		</classes>
+	</test>
+	<test name="forgot password">
+		<classes>
+			<class name="org.fwcms.cdc.privilegeduser.ForgotPasswordTest"></class>
+		</classes>
+	</test>
+</suite>

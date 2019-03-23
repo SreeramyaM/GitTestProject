@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="dataQualityCheck" parallel="false" >
+    
+	<test name="data quality negative check">
+		<classes>
+			<class name="DataQuality.WorkerVerificationNegativeFlowTest"></class>
+		</classes>
+	</test>
+	
+</suite>

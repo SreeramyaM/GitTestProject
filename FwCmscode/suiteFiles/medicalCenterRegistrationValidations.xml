@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="medicalCenterRegistrationValidations" parallel="false">
+    <test name="mcRegistrationValidationTests">
+		<classes>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterUploadButtonFunctionalityTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterVerifyBothOwnerDetailsandValidEmailAddressTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterPartialEntryof2ndRepresentativeDetailsTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterValidateDuplicateCheckOnDocterNameAndIDTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAccessToPreviouslySavedApplicationTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAddingDeletingEditingDocterDetailsTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAppearenceOfAdditionalButtonsOnclickingDoctorListTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterNextAndPreviousButtonFunctionalityTest"></class>
+			<class name="org.fwcms.tc.mcRegistration.MedicalCenterVerifyDisplayOfDocumentSizeInAttachDocumentAndDeletingTest"></class>
+		</classes>
+	</test>
+</suite>
+	
+

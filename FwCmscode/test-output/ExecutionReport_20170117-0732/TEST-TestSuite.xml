@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3,535.664" tests="72" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WORKSPACE"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\WORKSPACE"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\WORKSPACE\FwCmscode\pom.xml clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createPriviligedUserAsSuperUser" classname="newdb.step1.CreatePriviligeUserAsSuperUser" time="7.645"/>
+  <testcase name="retrivePrivilegedUserUserNamePassword" classname="newdb.step1.RetrieveBestinetPrivilegedUserUserNamePasswordFromGmail" time="15.898"/>
+  <testcase name="changePasswordAsNewPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangePasswordFirstTimeLoginTest" time="8.404"/>
+  <testcase name="createBestinetOperatorUserAsPrivilegedUser" classname="newdb.step2.CreateBestInetOperatorUserAsPrivilegedUser" time="6.86"/>
+  <testcase name="retriveOperatorUserUserNamePassword" classname="newdb.step2.RetrieveBestinetOperatorUserUserNamePasswordFromGmail" time="66.778"/>
+  <testcase name="changePasswordAsOperatorUser" classname="org.fwcms.tc.operator.ChangePasswordFirstTimeLoginTest" time="9.329"/>
+  <testcase name="createMcRegistrationThenMakeToActive" classname="newdb.step2.CreateMedicalCenterThenMakeToActiveStateTest" time="116.246"/>
+  <testcase name="retriveMCRepUserNamePassword" classname="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail" time="185.943"/>
+  <testcase name="retriveMCRepUserNamePassword" classname="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail" time="105.401"/>
+  <testcase name="resetPasswordFlowAsFirstTimeRepresentative" classname="org.fwcms.tc.representative.ChangePasswordFirstTimeLoginTest" time="22.224"/>
+  <testcase name="addOperatorAsRepresentative" classname="newdb.step3.CreateMcOperatorAsMcRepresentativeTest" time="10.43"/>
+  <testcase name="retriveMCOperatorUserNamePassword" classname="newdb.step3.RetrieveMedicalCenterOperatorUserNamePasswordFromGmail" time="17.022"/>
+  <testcase name="MedicalCenterUploadButtonFunctionality" classname="org.fwcms.tc.mcRegistration.MedicalCenterUploadButtonFunctionalityTest" time="59.312"/>
+  <testcase name="MedicalCenterVerifyBothOwnerDetailsandValidEmailAddress" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyBothOwnerDetailsandValidEmailAddressTest" time="60.37"/>
+  <testcase name="MedicalCenterPartialEntryof2ndRepresentativeDetails" classname="org.fwcms.tc.mcRegistration.MedicalCenterPartialEntryof2ndRepresentativeDetailsTest" time="79.041"/>
+  <testcase name="medicalCenterValidateDuplicateCheckOnDocterNameAndID" classname="org.fwcms.tc.mcRegistration.MedicalCenterValidateDuplicateCheckOnDocterNameAndIDTest" time="21.126"/>
+  <testcase name="medicalCenterVerifyAccessToPreviouslySavedApplication" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAccessToPreviouslySavedApplicationTest" time="31.292"/>
+  <testcase name="medicalCenterVerifyAddingDeletingEditingDocterDetailsTest" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAddingDeletingEditingDocterDetailsTest" time="18.909"/>
+  <testcase name="medicalCenterVerifyAppearenceOfAdditionalButtonsOnclickingDoctorList" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAppearenceOfAdditionalButtonsOnclickingDoctorListTest" time="20.207"/>
+  <testcase name="medicalCenterNextAndPreviousButtonFunctionality" classname="org.fwcms.tc.mcRegistration.MedicalCenterNextAndPreviousButtonFunctionalityTest" time="1.988"/>
+  <testcase name="medicalCenterVerifyNavigationAmongDifferentTabs" classname="org.fwcms.tc.mcRegistration.MedicalCenterNextAndPreviousButtonFunctionalityTest" time="4.713"/>
+  <testcase name="medicalCenterVerifyDisplayOfDocumentSizeInAttachDocumentAndDeleting" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyDisplayOfDocumentSizeInAttachDocumentAndDeletingTest" time="44.079"/>
+  <testcase name="VerifyMCInActiveStatusCanBeUpdated" classname="org.fwcms.tc.representative.VerifyMCInActiveStatusCanBeUpdatedTest" time="7.063"/>
+  <testcase name="VerifyMaxcountAndMinCountofDoctors" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="40.009"/>
+  <testcase name="VerifyReplacementofOwner" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="6.295"/>
+  <testcase name="verifyDeletingASingleRepAndDeletingBothReps" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="4.95"/>
+  <testcase name="rejectUpdatedMCDetailsandVerify" classname="org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest" time="89.509">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -&gt; css selector: div[class^=&apos;statusBar&apos;]]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 183d0e3e-d54f-4097-960d-59716a6f4420&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: div[class^='statusBar']]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 183d0e3e-d54f-4097-960d-59716a6f4420
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest.rejectUpdatedMCDetailsandVerify(RejectUpdatedMCDetailsandVerifyTest.java:80)
+</failure>
+    <system-out><![CDATA[17-01-2017 15:49:53,926 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 15:49:54,221 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 15:49:58,834 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 15:49:58,840 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 15:49:58,856 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 15:49:58,875 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 15:49:58,875 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/tc
+17-01-2017 15:49:59,775 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2ftc%2f
+17-01-2017 15:49:59,776 [main] INFO [pages.tc.LoginPage]  - typing username 'testau263' 
+17-01-2017 15:49:59,929 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 15:50:00,990 [main] INFO [pages.tc.LoginPage]  - clicking login button
+17-01-2017 15:50:01,312 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : rejectUpdatedMCDetailsandVerify
+17-01-2017 15:50:01,312 [main] INFO [pages.tc.HomePage]  - clicking medical center search option
+17-01-2017 15:50:02,822 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Searching MC by Application ID
+17-01-2017 15:50:03,185 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:03,751 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Verifying MC status to beActive
+17-01-2017 15:50:03,775 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Active' equals to expectedText : 'Active' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: span[class$='mc_status']]
+17-01-2017 15:50:03,776 [main] INFO [fwcms.pages.CommonElements]  - Logout from the application
+17-01-2017 15:50:04,896 [main] INFO [pages.tc.LoginPage]  - typing username 'chinar32' 
+17-01-2017 15:50:05,151 [main] INFO [pages.tc.LoginPage]  - typing password 'Smiles@123'
+17-01-2017 15:50:06,222 [main] INFO [pages.tc.LoginPage]  - clicking login button
+17-01-2017 15:50:06,593 [main] INFO [pages.tc.RepresentativeHomePage]  - waiting for update MC link to be clickable
+17-01-2017 15:50:07,148 [main] INFO [pages.tc.RepresentativeHomePage]  - clicking update MC link
+17-01-2017 15:50:07,768 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:10,337 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Click MC update link
+17-01-2017 15:50:10,413 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Verify update MC form
+17-01-2017 15:50:10,962 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit MC name
+17-01-2017 15:50:11,050 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit registration no
+17-01-2017 15:50:11,112 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit Medical center address
+17-01-2017 15:50:11,289 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Assert error message
+17-01-2017 15:50:11,305 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> class name: formErrorContent]
+17-01-2017 15:50:11,424 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:50:11,960 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Medical Center updated successfully' in status bar
+17-01-2017 15:50:11,993 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Medical Center updated successfully' equals to expectedText : 'Medical Center updated successfully' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: div[class^='statusBar']]
+17-01-2017 15:50:11,993 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 15:50:12,055 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 15:50:13,055 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:14,069 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - verify if attached Registration Certificate is displayed in document submitted
+17-01-2017 15:50:14,093 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Updating doctor details without Stamp & Signature
+17-01-2017 15:50:15,106 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '*This field is required' equals to expectedText : '*This field is required' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> class name: formErrorContent]
+17-01-2017 15:50:17,275 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:50:17,822 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Doctor details have been successfully added.' in status bar
+17-01-2017 15:50:17,842 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Doctor details have been successfully added.' equals to expectedText : 'Doctor details have been successfully added.' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: div[class^='statusBar']]
+17-01-2017 15:50:17,842 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 15:50:17,910 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 15:50:18,910 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:20,018 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Update first owner details without supporting docs
+17-01-2017 15:50:21,034 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> class name: formErrorContent]
+17-01-2017 15:50:22,136 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:50:22,687 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Medical Center updated successfully' in status bar
+17-01-2017 15:50:22,710 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Medical Center updated successfully' equals to expectedText : 'Medical Center updated successfully' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: div[class^='statusBar']]
+17-01-2017 15:50:22,711 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 15:50:22,776 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 15:50:23,777 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:24,798 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - verify if attached Proof of Identity for first Owner/Director is displayed in document submitted
+17-01-2017 15:50:24,854 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Update second owner details without supporting docs
+17-01-2017 15:50:26,888 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> class name: formErrorContent]
+17-01-2017 15:50:26,976 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:50:27,496 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Medical Center updated successfully' in status bar
+17-01-2017 15:50:27,516 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Medical Center updated successfully' equals to expectedText : 'Medical Center updated successfully' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> css selector: div[class^='statusBar']]
+17-01-2017 15:50:27,516 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 15:50:27,579 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 15:50:28,579 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:50:29,652 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - verify if attached Proof of Identity for second Owner/Director is displayed in document submitted
+17-01-2017 15:50:29,677 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Update representative one details without supporting docs
+17-01-2017 15:50:30,549 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (183d0e3e-d54f-4097-960d-59716a6f4420)] -> class name: formErrorContent]
+17-01-2017 15:50:30,634 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:51:30,812 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : rejectUpdatedMCDetailsandVerify
+17-01-2017 15:51:30,812 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : rejectUpdatedMCDetailsandVerify : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="updateMCDetailsWithoutAndWithSupportingDocs" classname="org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest" time="70.156">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (0e63a8d4-5df5-4cd9-851a-4662a518a01d)] -&gt; css selector: div[class^=&apos;statusBar&apos;]]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 0e63a8d4-5df5-4cd9-851a-4662a518a01d&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (0e63a8d4-5df5-4cd9-851a-4662a518a01d)] -> css selector: div[class^='statusBar']]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 0e63a8d4-5df5-4cd9-851a-4662a518a01d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest.updateMCDetailsWithoutAndWithSupportingDocs(UpdateMCDetailsWithoutAndWithSupportingDocsTest.java:76)
+</failure>
+    <system-out><![CDATA[17-01-2017 15:51:31,046 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 15:51:31,364 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 15:51:35,619 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 15:51:35,629 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 15:51:35,642 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 15:51:35,661 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 15:51:35,661 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/tc
+17-01-2017 15:51:36,498 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2ftc%2f
+17-01-2017 15:51:36,499 [main] INFO [pages.tc.LoginPage]  - typing username 'testau263' 
+17-01-2017 15:51:36,738 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 15:51:37,802 [main] INFO [pages.tc.LoginPage]  - clicking login button
+17-01-2017 15:51:38,155 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : updateMCDetailsWithoutAndWithSupportingDocs
+17-01-2017 15:51:38,156 [main] INFO [pages.tc.HomePage]  - clicking medical center search option
+17-01-2017 15:51:39,708 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Searching MC by Application ID
+17-01-2017 15:51:40,060 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:51:40,594 [main] INFO [pages.tc.SearchMedicalCenterPage]  - Verifying MC status to beActive
+17-01-2017 15:51:40,629 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Active' equals to expectedText : 'Active' in element [[FirefoxDriver: firefox on WINDOWS (0e63a8d4-5df5-4cd9-851a-4662a518a01d)] -> css selector: span[class$='mc_status']]
+17-01-2017 15:51:40,630 [main] INFO [fwcms.pages.CommonElements]  - Logout from the application
+17-01-2017 15:51:41,695 [main] INFO [pages.tc.LoginPage]  - typing username 'chinar32' 
+17-01-2017 15:51:41,807 [main] INFO [pages.tc.LoginPage]  - typing password 'Smiles@123'
+17-01-2017 15:51:42,892 [main] INFO [pages.tc.LoginPage]  - clicking login button
+17-01-2017 15:51:43,255 [main] INFO [pages.tc.RepresentativeHomePage]  - waiting for update MC link to be clickable
+17-01-2017 15:51:43,848 [main] INFO [pages.tc.RepresentativeHomePage]  - clicking update MC link
+17-01-2017 15:51:44,495 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:51:47,039 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Click MC update link
+17-01-2017 15:51:47,108 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Verify update MC form
+17-01-2017 15:51:47,654 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit MC name
+17-01-2017 15:51:47,738 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit registration no
+17-01-2017 15:51:47,792 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Edit Medical center address
+17-01-2017 15:51:47,954 [main] INFO [pages.tc.UpdateMedicalCenterPage]  - Assert error message
+17-01-2017 15:51:47,985 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required' equals to expectedText : '* This field is required' in element [[FirefoxDriver: firefox on WINDOWS (0e63a8d4-5df5-4cd9-851a-4662a518a01d)] -> class name: formErrorContent]
+17-01-2017 15:51:48,064 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 15:52:48,309 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : updateMCDetailsWithoutAndWithSupportingDocs
+17-01-2017 15:52:48,310 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : updateMCDetailsWithoutAndWithSupportingDocs : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEmployerRegistration" classname="org.fwcms.cdc.employerManagement.VerifyEmployerRegistrationTest" time="91.922"/>
+  <testcase name="changePasswordAsEmployer" classname="org.fwcms.cdc.employerManagement.ChangePasswordTest" time="9.607"/>
+  <testcase name="loginAsEmployerAndVerifyPICDetialsTest" classname="org.fwcms.cdc.employerManagement.LoginAsEmployerAndVerifyPICDetials" time="63.201"/>
+  <testcase name="metaDataConfiguration" classname="org.fwcms.cdc.superuser.MetaDataConfigurationTest" time="41.95"/>
+  <testcase name="verifyElementsInUserDetailsAsSuperUser" classname="org.fwcms.cdc.superuser.VerifyElementsPresentTest" time="2.962"/>
+  <testcase name="verifyElementsInUserDetailsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.VerifyElementsPresentTest" time="2.876"/>
+  <testcase name="addPrivilegeUserValidationsAsSuperUser" classname="org.fwcms.cdc.superuser.ValidationsTest" time="136.548">
+    <failure message="Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: div[class^=&apos;emailformError&apos;]&gt;div[class=&apos;formErrorContent&apos;]&apos;&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 2e90f83a-5759-436b-a210-f8bb413865d6&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class^='emailformError']>div[class='formErrorContent']'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 2e90f83a-5759-436b-a210-f8bb413865d6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.superuser.ValidationsTest.addPrivilegeUserValidationsAsSuperUser(ValidationsTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+Command duration or timeout: 60.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=css selector, value=div[class^='emailformError']>div[class='formErrorContent']}
+Session ID: 2e90f83a-5759-436b-a210-f8bb413865d6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.superuser.ValidationsTest.addPrivilegeUserValidationsAsSuperUser(ValidationsTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[17-01-2017 15:57:09,580 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 15:57:09,889 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 15:57:14,515 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 15:57:14,524 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 15:57:14,529 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 15:57:14,544 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 15:57:14,544 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+17-01-2017 15:57:15,169 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+17-01-2017 15:57:15,170 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : addPrivilegeUserValidationsAsSuperUser
+17-01-2017 15:57:15,170 [main] INFO [pages.cdc.LoginPage]  - typing username 'superuser'
+17-01-2017 15:57:15,315 [main] INFO [pages.cdc.LoginPage]  - typing password 'superuser'
+17-01-2017 15:57:15,360 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+17-01-2017 15:57:15,873 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+17-01-2017 15:57:16,819 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+17-01-2017 15:57:17,461 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:57:18,049 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user link
+17-01-2017 15:57:18,113 [main] INFO [pages.cdc.UserDetailsPage]  - validating full name field
+17-01-2017 15:57:18,113 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus to full name
+17-01-2017 15:57:18,259 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:18,362 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:57:18,373 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:57:18,398 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Name field cannot be empty.
+* Letters only
+* Minimum 2 characters required' equals to expectedText : '* Name field cannot be empty.
+* Letters only
+* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:57:18,398 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:57:19,398 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameMinCharAndLettersOnlydata '1' in full name
+17-01-2017 15:57:19,438 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:19,515 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:57:19,566 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:57:19,589 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Letters only
+* Minimum 2 characters required' equals to expectedText : '* Letters only
+* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:57:19,589 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:57:20,589 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameMinChardata 'a' in full name
+17-01-2017 15:57:20,655 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:20,736 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:57:20,755 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:57:20,786 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Minimum 2 characters required' equals to expectedText : '* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:57:20,786 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:57:21,786 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameLettersOnlyData 'asdfasdf1' in full name
+17-01-2017 15:57:21,888 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:21,980 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:57:21,993 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:57:22,016 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Letters only' equals to expectedText : '* Letters only' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:57:22,017 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec
+17-01-2017 15:57:24,017 [main] INFO [pages.cdc.UserDetailsPage]  - validating email field
+17-01-2017 15:57:24,017 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus to email
+17-01-2017 15:57:24,077 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus email to full name
+17-01-2017 15:57:24,133 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error
+17-01-2017 15:57:24,146 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in email form error
+17-01-2017 15:57:24,164 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Email ID field cannot be empty.
+* Invalid email address
+*Includes Alphabets, numbers, @ . _ -
+* Minimum 5 characters required' equals to expectedText : '* Email ID field cannot be empty.
+* Invalid email address
+*Includes Alphabets, numbers, @ . _ -
+* Minimum 5 characters required' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='emailformError']>div[class='formErrorContent']]
+17-01-2017 15:57:24,164 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:57:25,164 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing invaliedEmailData 'ab@' in email
+17-01-2017 15:57:25,231 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:25,305 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error
+17-01-2017 15:57:25,356 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in email form error
+17-01-2017 15:57:25,388 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Invalid email address
+* Minimum 5 characters required' equals to expectedText : '* Invalid email address
+* Minimum 5 characters required' in element [[FirefoxDriver: firefox on WINDOWS (2e90f83a-5759-436b-a210-f8bb413865d6)] -> css selector: div[class^='emailformError']>div[class='formErrorContent']]
+17-01-2017 15:57:25,388 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:57:26,388 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing invaliedEmailData 'asdf@' in email
+17-01-2017 15:57:28,491 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:57:31,565 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error three
+17-01-2017 15:59:31,711 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : addPrivilegeUserValidationsAsSuperUser
+17-01-2017 15:59:31,712 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : addPrivilegeUserValidationsAsSuperUser : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="addUserValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ValidationsTest" time="136.193">
+    <failure message="Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: div[class^=&apos;emailformError&apos;]&gt;div[class=&apos;formErrorContent&apos;]&apos;&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: a109fb51-a94d-44da-bf92-99a489e268e1&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class^='emailformError']>div[class='formErrorContent']'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: a109fb51-a94d-44da-bf92-99a489e268e1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.ValidationsTest.addUserValidationsAsPrivilegedUser(ValidationsTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+Command duration or timeout: 60.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=css selector, value=div[class^='emailformError']>div[class='formErrorContent']}
+Session ID: a109fb51-a94d-44da-bf92-99a489e268e1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.ValidationsTest.addUserValidationsAsPrivilegedUser(ValidationsTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"div[class^='emailformError']>div[class='formErrorContent']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[17-01-2017 15:59:31,888 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 15:59:32,168 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 15:59:36,509 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 15:59:36,518 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 15:59:36,528 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 15:59:36,554 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 15:59:36,554 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+17-01-2017 15:59:37,413 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+17-01-2017 15:59:37,413 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : addUserValidationsAsPrivilegedUser
+17-01-2017 15:59:37,413 [main] INFO [pages.cdc.LoginPage]  - typing username 'testpr52'
+17-01-2017 15:59:37,493 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 15:59:37,539 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+17-01-2017 15:59:37,863 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+17-01-2017 15:59:38,729 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+17-01-2017 15:59:39,460 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 15:59:39,980 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user link
+17-01-2017 15:59:40,044 [main] INFO [pages.cdc.UserDetailsPage]  - validating full name field
+17-01-2017 15:59:40,044 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus to full name
+17-01-2017 15:59:40,190 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:40,276 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:59:40,290 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:59:40,312 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Name field cannot be empty.
+* Letters only
+* Minimum 2 characters required' equals to expectedText : '* Name field cannot be empty.
+* Letters only
+* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:59:40,312 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:59:41,313 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameMinCharAndLettersOnlydata '1' in full name
+17-01-2017 15:59:41,373 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:41,444 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:59:41,461 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:59:41,484 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Letters only
+* Minimum 2 characters required' equals to expectedText : '* Letters only
+* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:59:41,484 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:59:42,484 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameMinChardata 'a' in full name
+17-01-2017 15:59:42,561 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:42,658 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:59:42,684 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:59:42,716 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Minimum 2 characters required' equals to expectedText : '* Minimum 2 characters required' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:59:42,716 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:59:43,716 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing fullnameLettersOnlyData 'a1' in full name
+17-01-2017 15:59:43,769 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:43,879 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for full name form error
+17-01-2017 15:59:43,891 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in full name form error
+17-01-2017 15:59:43,911 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Letters only' equals to expectedText : '* Letters only' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='userFullNameformError']>div[class='formErrorContent']]
+17-01-2017 15:59:43,911 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec
+17-01-2017 15:59:45,912 [main] INFO [pages.cdc.UserDetailsPage]  - validating email field
+17-01-2017 15:59:45,912 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus to email
+17-01-2017 15:59:45,981 [main] INFO [pages.cdc.UserDetailsPage]  - moving focus email to full name
+17-01-2017 15:59:46,038 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error
+17-01-2017 15:59:46,052 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in email form error
+17-01-2017 15:59:46,070 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Email ID field cannot be empty.
+* Invalid email address
+*Includes Alphabets, numbers, @ . _ -
+* Minimum 5 characters required' equals to expectedText : '* Email ID field cannot be empty.
+* Invalid email address
+*Includes Alphabets, numbers, @ . _ -
+* Minimum 5 characters required' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='emailformError']>div[class='formErrorContent']]
+17-01-2017 15:59:46,070 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:59:47,070 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing invaliedEmailData 'ab@' in email
+17-01-2017 15:59:47,134 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:47,233 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error
+17-01-2017 15:59:47,252 [main] INFO [pages.cdc.UserDetailsPage]  - verifying text in email form error
+17-01-2017 15:59:47,283 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Invalid email address
+* Minimum 5 characters required' equals to expectedText : '* Invalid email address
+* Minimum 5 characters required' in element [[FirefoxDriver: firefox on WINDOWS (a109fb51-a94d-44da-bf92-99a489e268e1)] -> css selector: div[class^='emailformError']>div[class='formErrorContent']]
+17-01-2017 15:59:47,283 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 1 sec
+17-01-2017 15:59:48,283 [main] INFO [pages.cdc.UserDetailsPage]  - clearing and typing invaliedEmailData 'asdf@' in email
+17-01-2017 15:59:50,345 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user button
+17-01-2017 15:59:53,446 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for email form error three
+17-01-2017 16:01:53,600 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : addUserValidationsAsPrivilegedUser
+17-01-2017 16:01:53,600 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : addUserValidationsAsPrivilegedUser : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="changePasswordFormValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangeAndForgotPasswordValidationsTest" time="68.721"/>
+  <testcase name="forgotPasswordFormValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangeAndForgotPasswordValidationsTest" time="31.12"/>
+  <testcase name="addEditDeletePrivilegedUserAsSuperUser" classname="org.fwcms.cdc.superuser.CrudOperationsTest" time="25.503"/>
+  <testcase name="addEditDeleteOperatorUserAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.CrudOperationsTest" time="25.514"/>
+  <testcase name="searchFunctionalityAsSuperUser" classname="org.fwcms.cdc.superuser.SearchFunctionalityTest" time="13.914"/>
+  <testcase name="searchFunctionalityAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.SearchFunctionalityTest" time="12.742"/>
+  <testcase name="changePasswordAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangePasswordTest" time="8.997"/>
+  <testcase name="forgotPasswordAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ForgotPasswordTest" time="4.375"/>
+  <testcase name="changePasswordAsOperatorUser" classname="org.fwcms.tc.operator.ChangePasswordTest" time="10.171"/>
+  <testcase name="forgotPasswordAsOperatorUser" classname="org.fwcms.tc.operator.ForgotPasswordTest" time="1.144"/>
+  <testcase name="resetPasswordFlowAsRepresentative" classname="org.fwcms.tc.representative.ChangePasswordTest" time="16.097"/>
+  <testcase name="verifyAndValidateForgotPasswordPage" classname="org.fwcms.tc.representative.VerificationsAndValidationsTest" time="35.344"/>
+  <testcase name="verifyElementsInLoginPage" classname="org.fwcms.tc.representative.VerificationsAndValidationsTest" time="0.12"/>
+  <testcase name="addEditDeleteOperatorAsRepresentative" classname="org.fwcms.tc.representative.CrudOperationsOnOperatorTest" time="33.25"/>
+  <testcase name="searchForMedicalCenterAsOperatorUser" classname="org.fwcms.tc.operator.SearchForMedicalCenterTest" time="5.046"/>
+  <testcase name="searchForMedicalCenterAsPrivilegedUser" classname="org.fwcms.tc.privilegeduser.SearchForMedicalCenterTest" time="4.221"/>
+  <testcase name="verifyErrorMessageWhenIrrelevantSearchIsPerformed" classname="org.fwcms.tc.operator.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest" time="6.374"/>
+  <testcase name="verifyErrorMessageWhenIrrelevantSearchIsPerformed" classname="org.fwcms.tc.privilegeduser.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest" time="6.439"/>
+  <testcase name="SearchMCByCountryAndByStatus" classname="org.fwcms.tc.operator.SearchMCByCountryAndByStatusTest" time="3.388"/>
+  <testcase name="verifyingFunctionalityOfVerifyButtonWithoutVerifying" classname="org.fwcms.tc.operator.VerifyingFunctionalityOfVerifyButtonWithoutVerifyingTest" time="93.465"/>
+  <testcase name="verifyingRegisteredMCForPreviouslySavedApplication" classname="org.fwcms.tc.operator.VerifyingRegisteredMCForPreviouslySavedApplicationTest" time="92.432"/>
+  <testcase name="verifyRejectMCFunctionality" classname="org.fwcms.tc.operator.VerifyRejectMCFunctionalityTest" time="98.261"/>
+  <testcase name="verifyingRegisteredMCUnderPendingVerificationAsOperator" classname="org.fwcms.tc.operator.VerifyingRegisteredMCUnderPendingVerificationTest" time="97.131"/>
+  <testcase name="verifyingRegisteredMCUnderPendingVerificationAsPrevilegedUser" classname="org.fwcms.tc.privilegeduser.VerifyingRegisteredMCUnderPendingVerificationTest" time="90.007"/>
+  <testcase name="makePaymentByDraftForMCUnderPendingPaymentStatus" classname="org.fwcms.tc.operator.MakePaymentByDraftForMCUnderPendingPaymentTest" time="84.535"/>
+  <testcase name="makePaymentByOnlineForMCUnderPendingPaymentStatus" classname="org.fwcms.tc.operator.MakePaymentByOnlineForMCUnderPaymentPendingTest" time="90.759"/>
+  <testcase name="rejectMCFuntionalityTestAsPrivilegedUser" classname="org.fwcms.tc.privilegeduser.RejectMCFuntionalityTest" time="95.916"/>
+  <testcase name="approveMCUnderPendingApprovalByPrivilegedUser" classname="org.fwcms.tc.privilegeduser.ApproveMCUnderPendingApprovalTest" time="114.274"/>
+  <testcase name="verifyEditFunctionalityOfCreditLimit" classname="org.fwcms.tc.privilegeduser.VerifyEditFunctionalityOfCreditLimitTest" time="5.584"/>
+  <testcase name="assignAndRevokeBestInetOperatorRole" classname="org.fwcms.cdc.superuser.MultipleRolesTest" time="23.332"/>
+  <testcase name="assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="24.78"/>
+  <testcase name="assignAndRevokeBestInetPrivilegedUserRole" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="23.203"/>
+  <testcase name="verifyBestInetOperatorAsOnlyPriviligedUser" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="83.792">
+    <failure message="Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@2c16f408&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 891311e1-3c5b-4133-a248-d7991e6b9c48&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for com.olo.bot.BrowserBot$10@2c16f408
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 891311e1-3c5b-4133-a248-d7991e6b9c48
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.privilegeduser.MultipleRolesTest.verifyBestInetOperatorAsOnlyPriviligedUser(MultipleRolesTest.java:109)
+</failure>
+    <system-out><![CDATA[17-01-2017 16:27:44,450 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 16:27:44,731 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 16:27:49,337 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 16:27:49,445 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 16:27:49,453 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 16:27:49,472 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 16:27:49,472 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+17-01-2017 16:27:50,040 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+17-01-2017 16:27:50,040 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : verifyBestInetOperatorAsOnlyPriviligedUser
+17-01-2017 16:27:50,040 [main] INFO [pages.cdc.LoginPage]  - typing username 'testpr52'
+17-01-2017 16:27:50,244 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 16:27:50,364 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+17-01-2017 16:27:50,763 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+17-01-2017 16:27:51,735 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+17-01-2017 16:27:52,437 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 16:27:52,975 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+17-01-2017 16:27:53,006 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+17-01-2017 16:27:54,085 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+17-01-2017 16:27:54,271 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+17-01-2017 16:27:54,374 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+17-01-2017 16:27:56,477 [main] INFO [pages.cdc.UserDetailsPage]  - comparing Test Automation Puneet with Test Automation Puneet in the existing list
+17-01-2017 16:27:57,139 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+17-01-2017 16:27:57,269 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role checkbox is present
+17-01-2017 16:27:57,302 [main] INFO [olo.bot.BrowserBot]  - Comparing elementValue : 'BESTINET_PRIVILEGED_USER' equals to expectedValue : 'BESTINET_PRIVILEGED_USER' in element [[FirefoxDriver: firefox on WINDOWS (891311e1-3c5b-4133-a248-d7991e6b9c48)] -> id: userRoleType]
+17-01-2017 16:27:57,302 [main] INFO [pages.cdc.UserDetailsPage]  - assigning additional role
+17-01-2017 16:27:57,302 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+17-01-2017 16:27:57,377 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+17-01-2017 16:27:57,450 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+17-01-2017 16:27:57,520 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 16:27:59,624 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in status bar
+17-01-2017 16:27:59,642 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' equals to expectedText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in element [[FirefoxDriver: firefox on WINDOWS (891311e1-3c5b-4133-a248-d7991e6b9c48)] -> css selector: div[class^='statusBar']]
+17-01-2017 16:27:59,642 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 16:28:00,159 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 16:28:01,159 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 16:28:01,193 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+17-01-2017 16:28:01,225 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+17-01-2017 16:28:02,303 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+17-01-2017 16:28:02,489 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+17-01-2017 16:28:02,600 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+17-01-2017 16:28:04,643 [main] INFO [pages.cdc.UserDetailsPage]  - comparing Test Automation Puneet with Test Automation Puneet in the existing list
+17-01-2017 16:28:05,268 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+17-01-2017 16:28:05,400 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is assigned
+17-01-2017 16:28:05,409 [main] INFO [pages.cdc.UserDetailsPage]  - clicking cancel button
+17-01-2017 16:28:05,474 [main] INFO [fwcms.pages.CommonElements]  - clicking signout link
+17-01-2017 16:28:05,474 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 16:28:07,041 [main] INFO [pages.cdc.LogoutPage]  - waiting for back to login link to be visible
+17-01-2017 16:28:07,065 [main] INFO [pages.cdc.LogoutPage]  - clicking back to login link
+17-01-2017 16:28:07,567 [main] INFO [pages.cdc.LogoutPage]  - navigating back to login page
+17-01-2017 16:28:07,794 [main] INFO [pages.cdc.LoginPage]  - typing username 'testau1'
+17-01-2017 16:28:07,860 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 16:28:07,914 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+17-01-2017 16:28:08,236 [main] INFO [pages.cdc.HomePage]  - checking sign out link is visible
+17-01-2017 16:28:08,739 [main] INFO [pages.cdc.HomePage]  - clicking signout link
+17-01-2017 16:28:08,739 [main] INFO [pages.cdc.HomePage]  - sleeping for 1 sec
+17-01-2017 16:28:10,101 [main] INFO [pages.cdc.LogoutPage]  - waiting for back to login link to be visible
+17-01-2017 16:28:10,118 [main] INFO [pages.cdc.LogoutPage]  - clicking back to login link
+17-01-2017 16:28:10,649 [main] INFO [pages.tc.LoginPage]  - typing username 'testau1' 
+17-01-2017 16:28:10,743 [main] INFO [pages.tc.LoginPage]  - typing password 'Test123!@'
+17-01-2017 16:28:11,798 [main] INFO [pages.tc.LoginPage]  - clicking login button
+17-01-2017 16:28:12,216 [main] INFO [pages.tc.HomePage]  - asserting sign out visible
+17-01-2017 16:28:13,078 [main] INFO [pages.tc.HomePage]  - clicking signout link
+17-01-2017 16:28:13,777 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+17-01-2017 16:29:13,830 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : verifyBestInetOperatorAsOnlyPriviligedUser
+17-01-2017 16:29:13,830 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : verifyBestInetOperatorAsOnlyPriviligedUser : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="verifyBestInetPriviligedUserAsOnlyOperator" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="90.129"/>
+  <testcase name="loginAccess" classname="org.fwcms.cdc.operator.MultipleRolesTest" time="2.513"/>
+  <testcase name="loginAccess" classname="org.fwcms.tc.mcOperator.MultipleRolesTest" time="3.08"/>
+</testsuite>

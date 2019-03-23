@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="125596" started-at="2017-01-18T08:53:13Z" finished-at="2017-01-18T08:55:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="125596" started-at="2017-01-18T08:53:13Z" finished-at="2017-01-18T08:55:19Z">
+      <class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest">
+        <test-method status="PASS" signature="beforeTestMethod(org.testng.ITestContext)[pri:0, instance:org.fwcms.cdc.privilegeduser.MultipleRolesTest@44c75ba4]" name="beforeTestMethod" is-config="true" duration-ms="5918" started-at="2017-01-18T16:53:13Z" finished-at="2017-01-18T16:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@231033db]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="verifyBestInetOperatorAsOnlyPriviligedUser(java.util.HashMap)[pri:0, instance:org.fwcms.cdc.privilegeduser.MultipleRolesTest@44c75ba4]" name="verifyBestInetOperatorAsOnlyPriviligedUser" duration-ms="119175" started-at="2017-01-18T16:53:19Z" description="13" data-provider="assignAndRevokeRole" finished-at="2017-01-18T16:55:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"editReason":"edit reason","contactNumber":"9099989098","emailId":"test@test.com","address":"Happiest Minds","fullName":"TestAutomationBOP","accountDeleteTitle":"Inactive","deleteReason":"delete reason"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBestInetOperatorAsOnlyPriviligedUser -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.fwcms.cdc.privilegeduser.MultipleRolesTest@44c75ba4]" name="afterTestMethod" is-config="true" duration-ms="475" started-at="2017-01-18T16:55:18Z" finished-at="2017-01-18T16:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBestInetOperatorAsOnlyPriviligedUser status=SUCCESS method=MultipleRolesTest.verifyBestInetOperatorAsOnlyPriviligedUser(java.util.HashMap)[pri:0, instance:org.fwcms.cdc.privilegeduser.MultipleRolesTest@44c75ba4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- org.fwcms.cdc.privilegeduser.MultipleRolesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

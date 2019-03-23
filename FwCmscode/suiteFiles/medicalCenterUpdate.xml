@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="medicalCenterUpdate" parallel="false">
+    <test name="mcUpdateTests">
+		<classes>
+			<class name="org.fwcms.tc.representative.VerifyMCInActiveStatusCanBeUpdatedTest"></class>
+			<class name="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest"></class>
+			<class name="org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest"></class>	
+			<class name="org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest"></class>	
+		</classes>
+	</test>
+</suite>
+	
+

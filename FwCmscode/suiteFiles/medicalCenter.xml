@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="medicalCenter" parallel="false">
+    <test name="mcTests">
+		<classes>
+			<!-- <class name="newdb.step2.MedicalCenterRegistrationTest"></class> -->
+			<class name="newdb.step2.CreateMedicalCenterThenMakeToActiveStateTest"></class>
+			<class name="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail"></class>
+			<class name="org.fwcms.tc.representative.ChangePasswordFirstTimeLoginTest"></class>
+			<class name="newdb.step3.CreateMcOperatorAsMcRepresentativeTest"></class>
+			<class name="newdb.step3.RetrieveMedicalCenterOperatorUserNamePasswordFromGmail"></class>
+		</classes>
+	</test>
+</suite>
+	
+

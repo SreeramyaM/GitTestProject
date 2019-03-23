@@ -1,0 +1,12 @@
+[
+	{
+	"invalidUserFullNames":["aud%","aud rep%","aud"],
+	"invalidEmails":["a@b","pavankumar.raju@"],
+	"invalidMobileNumbers":["959%","959","9591%"],
+	"fullName":"TestAuto",
+	"email":"l.kum200183@gmail.com",
+	"mobileNumber":"98086471230",
+	"invalidReasons":["reason%","reason reason%","reason"],
+	"reason":"reason reason"
+	}
+]

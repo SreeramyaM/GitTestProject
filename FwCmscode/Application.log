@@ -1,0 +1,197 @@
+18-01-2017 18:30:13,547 [main] INFO [olo.util.PropertyReader]  - Loading /config/config.properties
+18-01-2017 18:30:13,548 [main] INFO [olo.util.PropertyReader]  - Loading /config/mail.properties
+18-01-2017 18:30:17,331 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+18-01-2017 18:30:17,331 [main] INFO [olo.listeners.MailSuiteListener]  - Mail sent on suite start 'FailedTCs'
+18-01-2017 18:30:22,665 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+18-01-2017 18:30:22,676 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+18-01-2017 18:30:22,682 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+18-01-2017 18:30:22,701 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+18-01-2017 18:30:22,701 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+18-01-2017 18:30:23,422 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+18-01-2017 18:30:23,423 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser
+18-01-2017 18:30:23,451 [main] INFO [fwcms.util.BestinetSuperUserCredentialsProp]  - Loading bestinetsuperusercredentials.properties
+18-01-2017 18:30:23,452 [main] INFO [pages.cdc.LoginPage]  - typing username 'superuser'
+18-01-2017 18:30:23,565 [main] INFO [pages.cdc.LoginPage]  - typing password 'superuser'
+18-01-2017 18:30:23,619 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+18-01-2017 18:30:24,034 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+18-01-2017 18:30:25,341 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+18-01-2017 18:30:25,985 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:26,635 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user link
+18-01-2017 18:30:26,701 [main] INFO [prop.cdc.BestInetPrivilegedUsersDetailsPageProp]  - Loading BestInetPrivilegedUsersDetailsPage.properties
+18-01-2017 18:30:26,703 [main] INFO [pages.cdc.UserDetailsPage]  - typing user full name
+18-01-2017 18:30:26,902 [main] INFO [pages.cdc.UserDetailsPage]  - typing email
+18-01-2017 18:30:26,961 [main] INFO [pages.cdc.UserDetailsPage]  - typing contact number
+18-01-2017 18:30:27,012 [main] INFO [pages.cdc.UserDetailsPage]  - typing address
+18-01-2017 18:30:27,111 [main] INFO [pages.cdc.UserDetailsPage]  - clicking add button
+18-01-2017 18:30:27,178 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:30:29,291 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Privilege User has been successfully created!
+
+An email is sent to the Privilege User with login details.' in status bar
+18-01-2017 18:30:29,319 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Privilege User has been successfully created!
+
+An email is sent to the Privilege User with login details.' equals to expectedText : 'Privilege User has been successfully created!
+
+An email is sent to the Privilege User with login details.' in element [[FirefoxDriver: firefox on WINDOWS (35f56996-27a0-4662-9da7-509e5015167d)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:30:29,321 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:30:29,873 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:30:30,874 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:30,897 [main] INFO [pages.cdc.HomePage]  - clicking signout link
+18-01-2017 18:30:30,897 [main] INFO [pages.cdc.HomePage]  - sleeping for 1 sec
+18-01-2017 18:30:32,383 [main] INFO [pages.cdc.LogoutPage]  - waiting for back to login link to be visible
+18-01-2017 18:30:32,407 [main] INFO [pages.cdc.LogoutPage]  - clicking back to login link
+18-01-2017 18:30:32,890 [main] INFO [pages.cdc.LogoutPage]  - navigating back to login page
+18-01-2017 18:30:33,291 [main] INFO [fwcms.util.BestinetPrivilegedUserCredentialsProp]  - Loading bestinetprivilegedusercredentials.properties
+18-01-2017 18:30:33,291 [main] INFO [pages.cdc.LoginPage]  - typing username 'testpr54'
+18-01-2017 18:30:33,336 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 18:30:33,381 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+18-01-2017 18:30:33,683 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+18-01-2017 18:30:34,292 [main] INFO [pages.cdc.HomePage]  - clicking on roles and privileges link
+18-01-2017 18:30:34,924 [main] INFO [pages.cdc.HomePage]  - sleeping for 1 sec
+18-01-2017 18:30:35,925 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:35,963 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 18:30:36,002 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 18:30:36,071 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 18:30:36,261 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 18:30:36,395 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 18:30:38,555 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 18:30:38,668 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role checkbox is present
+18-01-2017 18:30:38,707 [main] INFO [olo.bot.BrowserBot]  - Comparing elementValue : 'BESTINET_OPERATOR' equals to expectedValue : 'BESTINET_OPERATOR' in element [[FirefoxDriver: firefox on WINDOWS (35f56996-27a0-4662-9da7-509e5015167d)] -> id: userRoleType]
+18-01-2017 18:30:38,708 [main] INFO [pages.cdc.UserDetailsPage]  - assigning additional role
+18-01-2017 18:30:38,708 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+18-01-2017 18:30:38,763 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+18-01-2017 18:30:38,840 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+18-01-2017 18:30:38,906 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:30:41,018 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' in status bar
+18-01-2017 18:30:41,046 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' equals to expectedText : 'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' in element [[FirefoxDriver: firefox on WINDOWS (35f56996-27a0-4662-9da7-509e5015167d)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:30:41,046 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:30:41,600 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:30:42,600 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:42,627 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 18:30:42,667 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 18:30:42,735 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 18:30:42,952 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 18:30:43,095 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 18:30:45,248 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 18:30:45,362 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is assigned
+18-01-2017 18:30:45,375 [main] INFO [pages.cdc.UserDetailsPage]  - removing additional role
+18-01-2017 18:30:45,376 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+18-01-2017 18:30:45,437 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+18-01-2017 18:30:45,515 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+18-01-2017 18:30:45,581 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:30:47,701 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' in status bar
+18-01-2017 18:30:47,724 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' equals to expectedText : 'Privilege User details have been modified successfully!
+
+An email is sent to the Privilege User with details.' in element [[FirefoxDriver: firefox on WINDOWS (35f56996-27a0-4662-9da7-509e5015167d)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:30:47,724 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:30:48,318 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:30:49,318 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:49,343 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is not assigned
+18-01-2017 18:30:49,358 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser
+18-01-2017 18:30:49,362 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser : PASS
+18-01-2017 18:30:49,362 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+18-01-2017 18:30:49,790 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+18-01-2017 18:30:54,390 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+18-01-2017 18:30:54,397 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+18-01-2017 18:30:54,402 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+18-01-2017 18:30:54,417 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+18-01-2017 18:30:54,418 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+18-01-2017 18:30:55,312 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+18-01-2017 18:30:55,313 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : assignAndRevokeBestInetPrivilegedUserRole
+18-01-2017 18:30:55,314 [main] INFO [pages.cdc.LoginPage]  - typing username 'testpr54'
+18-01-2017 18:30:55,392 [main] INFO [pages.cdc.LoginPage]  - typing password 'Test123!@'
+18-01-2017 18:30:55,440 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+18-01-2017 18:30:55,882 [main] INFO [pages.cdc.HomePage]  - waiting for the link to be enabled
+18-01-2017 18:30:56,763 [main] INFO [pages.cdc.HomePage]  - clicking on add edit delete users link
+18-01-2017 18:30:57,421 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:30:57,954 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on add user link
+18-01-2017 18:30:58,036 [main] INFO [prop.cdc.BestInetOperatorUsersDetailsPageProp]  - Loading BestInetOperatorUsersDetailsPage.properties
+18-01-2017 18:30:58,037 [main] INFO [pages.cdc.UserDetailsPage]  - typing user full name
+18-01-2017 18:30:58,237 [main] INFO [pages.cdc.UserDetailsPage]  - typing email
+18-01-2017 18:30:58,298 [main] INFO [pages.cdc.UserDetailsPage]  - typing contact number
+18-01-2017 18:30:58,348 [main] INFO [pages.cdc.UserDetailsPage]  - typing address
+18-01-2017 18:30:58,451 [main] INFO [pages.cdc.UserDetailsPage]  - clicking add button
+18-01-2017 18:30:58,519 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:31:00,626 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Bestinet Operator has been successfully created!
+
+An email is sent to the Bestinet Operator with login details.' in status bar
+18-01-2017 18:31:00,647 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Bestinet Operator has been successfully created!
+
+An email is sent to the Bestinet Operator with login details.' equals to expectedText : 'Bestinet Operator has been successfully created!
+
+An email is sent to the Bestinet Operator with login details.' in element [[FirefoxDriver: firefox on WINDOWS (8f77811f-fa7f-4344-bccb-bf8a5833f540)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:31:00,647 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:31:01,217 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:31:02,217 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:31:02,248 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 18:31:02,295 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 18:31:02,369 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 18:31:02,583 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 18:31:02,687 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 18:31:04,742 [main] INFO [pages.cdc.UserDetailsPage]  - comparing TestAutomationBOPPgmOhhfg with TestAutomationBOPPgmOhhfg in the existing list
+18-01-2017 18:31:05,447 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 18:31:05,570 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role checkbox is present
+18-01-2017 18:31:05,608 [main] INFO [olo.bot.BrowserBot]  - Comparing elementValue : 'BESTINET_PRIVILEGED_USER' equals to expectedValue : 'BESTINET_PRIVILEGED_USER' in element [[FirefoxDriver: firefox on WINDOWS (8f77811f-fa7f-4344-bccb-bf8a5833f540)] -> id: userRoleType]
+18-01-2017 18:31:05,608 [main] INFO [pages.cdc.UserDetailsPage]  - assigning additional role
+18-01-2017 18:31:05,608 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+18-01-2017 18:31:05,666 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+18-01-2017 18:31:05,749 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+18-01-2017 18:31:05,815 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:31:07,920 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in status bar
+18-01-2017 18:31:07,942 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' equals to expectedText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in element [[FirefoxDriver: firefox on WINDOWS (8f77811f-fa7f-4344-bccb-bf8a5833f540)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:31:07,942 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:31:08,445 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:31:09,445 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:31:09,471 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 18:31:09,508 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 18:31:09,572 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 18:31:09,752 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 18:31:09,859 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 18:31:12,003 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 18:31:12,120 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is assigned
+18-01-2017 18:31:12,138 [main] INFO [pages.cdc.UserDetailsPage]  - removing additional role
+18-01-2017 18:31:12,138 [main] INFO [pages.cdc.UserDetailsPage]  - typing reason
+18-01-2017 18:31:12,196 [main] INFO [pages.cdc.UserDetailsPage]  - checking userrole checkbox
+18-01-2017 18:31:12,278 [main] INFO [pages.cdc.UserDetailsPage]  - clicking modify button in edit model
+18-01-2017 18:31:12,347 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+18-01-2017 18:31:14,451 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in status bar
+18-01-2017 18:31:14,473 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' equals to expectedText : 'Bestinet Operator details have been modified successfully!
+
+An email is sent to the Bestinet Operator with details.' in element [[FirefoxDriver: firefox on WINDOWS (8f77811f-fa7f-4344-bccb-bf8a5833f540)] -> css selector: div[class^='statusBar']]
+18-01-2017 18:31:14,473 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+18-01-2017 18:31:15,018 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+18-01-2017 18:31:16,018 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+18-01-2017 18:31:16,042 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for name radio button to get visible
+18-01-2017 18:31:16,074 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on name radio option
+18-01-2017 18:31:16,140 [main] INFO [pages.cdc.UserDetailsPage]  - typing in search text box
+18-01-2017 18:31:16,223 [main] INFO [pages.cdc.UserDetailsPage]  - clicking on search link
+18-01-2017 18:31:16,326 [main] INFO [pages.cdc.UserDetailsPage]  - sleeping for 2 sec for updating the current list
+18-01-2017 18:31:18,477 [main] INFO [pages.cdc.UserDetailsPage]  - waiting for the model box to be displayed
+18-01-2017 18:31:18,595 [main] INFO [pages.cdc.UserDetailsPage]  - verifying additional role is not assigned
+18-01-2017 18:31:18,610 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : assignAndRevokeBestInetPrivilegedUserRole
+18-01-2017 18:31:18,611 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : assignAndRevokeBestInetPrivilegedUserRole : PASS
+18-01-2017 18:31:18,611 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+18-01-2017 18:31:18,855 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+18-01-2017 18:31:22,040 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+18-01-2017 18:31:22,041 [main] INFO [olo.listeners.MailSuiteListener]  - Mail sent on suite completed 'FailedTCs'
+18-01-2017 18:31:25,903 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+18-01-2017 18:31:25,904 [main] INFO [fwcms.listeners.MailReporter]  - Suites Summary mail sent

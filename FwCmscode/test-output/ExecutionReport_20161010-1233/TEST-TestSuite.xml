@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4,102.299" tests="73" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Bestinet\Workspace2\FwCmscode"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rishitha.k\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\Bestinet\Workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2926752549417343938.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Ruby\ruby-2.3.1\bin;D:\Bestinet\bestinet\jboss-as-7.1.1\bin;C:\Program Files\Java\jdk1.7.0_75\bin;D:\Selenium Software\apache-maven-3.2.1\apache-maven-3.2.1\bin;C:\Ruby23-x64\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\rishitha.k"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="rishitha.k"/>
+    <property name="java.class.path" value="/D:/workEclipse/eclipse/configuration/org.eclipse.osgi/bundles/922/2/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre7"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Bestinet\Workspace2\FwCmscode\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/D:/workEclipse/eclipse/configuration/org.eclipse.osgi/bundles/922/2/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createPriviligedUserAsSuperUser" classname="newdb.step1.CreatePriviligeUserAsSuperUser" time="11.211"/>
+  <testcase name="retrivePrivilegedUserUserNamePassword" classname="newdb.step1.RetrieveBestinetPrivilegedUserUserNamePasswordFromGmail" time="37.476"/>
+  <testcase name="changePasswordAsNewPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangePasswordFirstTimeLoginTest" time="12.305"/>
+  <testcase name="createBestinetOperatorUserAsPrivilegedUser" classname="newdb.step2.CreateBestInetOperatorUserAsPrivilegedUser" time="13.883"/>
+  <testcase name="retriveOperatorUserUserNamePassword" classname="newdb.step2.RetrieveBestinetOperatorUserUserNamePasswordFromGmail" time="16.658"/>
+  <testcase name="changePasswordAsOperatorUser" classname="org.fwcms.tc.operator.ChangePasswordFirstTimeLoginTest" time="11.577"/>
+  <testcase name="createMcRegistrationThenMakeToActive" classname="newdb.step2.CreateMedicalCenterThenMakeToActiveStateTest" time="136.844"/>
+  <testcase name="retriveMCRepUserNamePassword" classname="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail" time="107.643"/>
+  <testcase name="retriveMCRepUserNamePassword" classname="newdb.step2.RetrieveMedicalCenterRepresentativeUserNamePasswordFromGmail" time="107.529"/>
+  <testcase name="resetPasswordFlowAsFirstTimeRepresentative" classname="org.fwcms.tc.representative.ChangePasswordFirstTimeLoginTest" time="28.459"/>
+  <testcase name="addOperatorAsRepresentative" classname="newdb.step3.CreateMcOperatorAsMcRepresentativeTest" time="15.145"/>
+  <testcase name="retriveMCOperatorUserNamePassword" classname="newdb.step3.RetrieveMedicalCenterOperatorUserNamePasswordFromGmail" time="33.774"/>
+  <testcase name="MedicalCenterUploadButtonFunctionality" classname="org.fwcms.tc.mcRegistration.MedicalCenterUploadButtonFunctionalityTest" time="99.288"/>
+  <testcase name="MedicalCenterVerifyBothOwnerDetailsandValidEmailAddress" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyBothOwnerDetailsandValidEmailAddressTest" time="76.665"/>
+  <testcase name="MedicalCenterPartialEntryof2ndRepresentativeDetails" classname="org.fwcms.tc.mcRegistration.MedicalCenterPartialEntryof2ndRepresentativeDetailsTest" time="91.361"/>
+  <testcase name="medicalCenterValidateDuplicateCheckOnDocterNameAndID" classname="org.fwcms.tc.mcRegistration.MedicalCenterValidateDuplicateCheckOnDocterNameAndIDTest" time="25.309"/>
+  <testcase name="medicalCenterVerifyAccessToPreviouslySavedApplication" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAccessToPreviouslySavedApplicationTest" time="23.708"/>
+  <testcase name="medicalCenterVerifyAddingDeletingEditingDocterDetailsTest" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAddingDeletingEditingDocterDetailsTest" time="33.521"/>
+  <testcase name="medicalCenterVerifyAppearenceOfAdditionalButtonsOnclickingDoctorList" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyAppearenceOfAdditionalButtonsOnclickingDoctorListTest" time="34.156"/>
+  <testcase name="medicalCenterNextAndPreviousButtonFunctionality" classname="org.fwcms.tc.mcRegistration.MedicalCenterNextAndPreviousButtonFunctionalityTest" time="6.568"/>
+  <testcase name="medicalCenterVerifyNavigationAmongDifferentTabs" classname="org.fwcms.tc.mcRegistration.MedicalCenterNextAndPreviousButtonFunctionalityTest" time="7.808"/>
+  <testcase name="medicalCenterVerifyDisplayOfDocumentSizeInAttachDocumentAndDeleting" classname="org.fwcms.tc.mcRegistration.MedicalCenterVerifyDisplayOfDocumentSizeInAttachDocumentAndDeletingTest" time="49.463"/>
+  <testcase name="VerifyMCInActiveStatusCanBeUpdated" classname="org.fwcms.tc.representative.VerifyMCInActiveStatusCanBeUpdatedTest" time="13.256"/>
+  <testcase name="VerifyMaxcountAndMinCountofDoctors" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="50.836"/>
+  <testcase name="VerifyReplacementofOwner" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="7.272"/>
+  <testcase name="verifyDeletingASingleRepAndDeletingBothReps" classname="org.fwcms.tc.representative.VerifyCountofEachMemberInUpdateMCTest" time="5.26"/>
+  <testcase name="rejectUpdatedMCDetailsandVerify" classname="org.fwcms.tc.representative.RejectUpdatedMCDetailsandVerifyTest" time="67.3"/>
+  <testcase name="updateMCDetailsWithoutAndWithSupportingDocs" classname="org.fwcms.tc.representative.UpdateMCDetailsWithoutAndWithSupportingDocsTest" time="74.431"/>
+  <testcase name="verifyDataQualityNegativeFlow" classname="DataQuality.WorkerVerificationNegativeFlowTest" time="24.945"/>
+  <testcase name="verifyEmployerRegistration" classname="org.fwcms.cdc.employerManagement.VerifyEmployerRegistrationTest" time="77.744"/>
+  <testcase name="changePasswordAsEmployer" classname="org.fwcms.cdc.employerManagement.ChangePasswordTest" time="14.504"/>
+  <testcase name="loginAsEmployerAndVerifyPICDetialsTest" classname="org.fwcms.cdc.employerManagement.LoginAsEmployerAndVerifyPICDetials" time="9.068"/>
+  <testcase name="metaDataConfiguration" classname="org.fwcms.cdc.superuser.MetaDataConfigurationTest" time="54.498"/>
+  <testcase name="verifyElementsInUserDetailsAsSuperUser" classname="org.fwcms.cdc.superuser.VerifyElementsPresentTest" time="8.311"/>
+  <testcase name="verifyElementsInUserDetailsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.VerifyElementsPresentTest" time="6.481"/>
+  <testcase name="addPrivilegeUserValidationsAsSuperUser" classname="org.fwcms.cdc.superuser.ValidationsTest" time="33.413"/>
+  <testcase name="addUserValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ValidationsTest" time="33.022"/>
+  <testcase name="changePasswordFormValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangeAndForgotPasswordValidationsTest" time="75.948"/>
+  <testcase name="forgotPasswordFormValidationsAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangeAndForgotPasswordValidationsTest" time="34.924"/>
+  <testcase name="addEditDeletePrivilegedUserAsSuperUser" classname="org.fwcms.cdc.superuser.CrudOperationsTest" time="33.963"/>
+  <testcase name="addEditDeleteOperatorUserAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.CrudOperationsTest" time="34.118"/>
+  <testcase name="searchFunctionalityAsSuperUser" classname="org.fwcms.cdc.superuser.SearchFunctionalityTest" time="18.396"/>
+  <testcase name="searchFunctionalityAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.SearchFunctionalityTest" time="17.478"/>
+  <testcase name="changePasswordAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ChangePasswordTest" time="14.241"/>
+  <testcase name="forgotPasswordAsPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.ForgotPasswordTest" time="7.578"/>
+  <testcase name="changePasswordAsOperatorUser" classname="org.fwcms.tc.operator.ChangePasswordTest" time="13.332"/>
+  <testcase name="forgotPasswordAsOperatorUser" classname="org.fwcms.tc.operator.ForgotPasswordTest" time="3.95"/>
+  <testcase name="resetPasswordFlowAsRepresentative" classname="org.fwcms.tc.representative.ChangePasswordTest" time="17.873"/>
+  <testcase name="verifyAndValidateForgotPasswordPage" classname="org.fwcms.tc.representative.VerificationsAndValidationsTest" time="52.463"/>
+  <testcase name="verifyElementsInLoginPage" classname="org.fwcms.tc.representative.VerificationsAndValidationsTest" time="0.217"/>
+  <testcase name="addEditDeleteOperatorAsRepresentative" classname="org.fwcms.tc.representative.CrudOperationsOnOperatorTest" time="45.197"/>
+  <testcase name="searchForMedicalCenterAsOperatorUser" classname="org.fwcms.tc.operator.SearchForMedicalCenterTest" time="8.497"/>
+  <testcase name="searchForMedicalCenterAsPrivilegedUser" classname="org.fwcms.tc.privilegeduser.SearchForMedicalCenterTest" time="8.185"/>
+  <testcase name="verifyErrorMessageWhenIrrelevantSearchIsPerformed" classname="org.fwcms.tc.operator.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest" time="10.873"/>
+  <testcase name="verifyErrorMessageWhenIrrelevantSearchIsPerformed" classname="org.fwcms.tc.privilegeduser.VerifyErrorMessageWhenIrrelevantSearchIsPerformedTest" time="10.685"/>
+  <testcase name="SearchMCByCountryAndByStatus" classname="org.fwcms.tc.operator.SearchMCByCountryAndByStatusTest" time="6.514"/>
+  <testcase name="verifyingFunctionalityOfVerifyButtonWithoutVerifying" classname="org.fwcms.tc.operator.VerifyingFunctionalityOfVerifyButtonWithoutVerifyingTest" time="102.723"/>
+  <testcase name="verifyingRegisteredMCForPreviouslySavedApplication" classname="org.fwcms.tc.operator.VerifyingRegisteredMCForPreviouslySavedApplicationTest" time="98.955"/>
+  <testcase name="verifyRejectMCFunctionality" classname="org.fwcms.tc.operator.VerifyRejectMCFunctionalityTest" time="91.608"/>
+  <testcase name="verifyingRegisteredMCUnderPendingVerificationAsOperator" classname="org.fwcms.tc.operator.VerifyingRegisteredMCUnderPendingVerificationTest" time="103.948"/>
+  <testcase name="verifyingRegisteredMCUnderPendingVerificationAsPrevilegedUser" classname="org.fwcms.tc.privilegeduser.VerifyingRegisteredMCUnderPendingVerificationTest" time="120.798"/>
+  <testcase name="makePaymentByDraftForMCUnderPendingPaymentStatus" classname="org.fwcms.tc.operator.MakePaymentByDraftForMCUnderPendingPaymentTest" time="92.593"/>
+  <testcase name="makePaymentByOnlineForMCUnderPendingPaymentStatus" classname="org.fwcms.tc.operator.MakePaymentByOnlineForMCUnderPaymentPendingTest" time="125.441"/>
+  <testcase name="rejectMCFuntionalityTestAsPrivilegedUser" classname="org.fwcms.tc.privilegeduser.RejectMCFuntionalityTest" time="124.652"/>
+  <testcase name="approveMCUnderPendingApprovalByPrivilegedUser" classname="org.fwcms.tc.privilegeduser.ApproveMCUnderPendingApprovalTest" time="161.759"/>
+  <testcase name="verifyEditFunctionalityOfCreditLimit" classname="org.fwcms.tc.privilegeduser.VerifyEditFunctionalityOfCreditLimitTest" time="10.906"/>
+  <testcase name="assignAndRevokeBestInetOperatorRole" classname="org.fwcms.cdc.superuser.MultipleRolesTest" time="34.199"/>
+  <testcase name="assignAndRevokeBestInetOperatorRoleAsBestInetPrivilegedUser" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="38.235"/>
+  <testcase name="assignAndRevokeBestInetPrivilegedUserRole" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="31.22"/>
+  <testcase name="verifyBestInetOperatorAsOnlyPriviligedUser" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="134.43"/>
+  <testcase name="verifyBestInetPriviligedUserAsOnlyOperator" classname="org.fwcms.cdc.privilegeduser.MultipleRolesTest" time="132.493"/>
+  <testcase name="loginAccess" classname="org.fwcms.cdc.operator.MultipleRolesTest" time="3.2"/>
+  <testcase name="loginAccess" classname="org.fwcms.tc.mcOperator.MultipleRolesTest" time="3.849"/>
+</testsuite>

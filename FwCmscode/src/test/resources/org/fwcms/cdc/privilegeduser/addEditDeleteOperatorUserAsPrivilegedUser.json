@@ -1,0 +1,11 @@
+[
+	{
+	"fullName":"TestAutomationBOP",
+	"emailId":"test@test.com",
+	"contactNumber":"9099989098",
+	"address":"Happiest Minds",
+	"editReason":"edit reason",
+	"deleteReason":"delete reason",
+	"accountDeleteTitle":"Inactive"
+	}
+]
